@@ -1,0 +1,63 @@
+.ds-button {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s, box-shadow 0.2s, transform 0.1s;
+}
+
+.ds-button:active {
+  transform: scale(0.97);
+}
+
+.ds-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Variants */
+.ds-button--primary {
+  background-color: #6366f1;
+  color: #fff;
+}
+.ds-button--primary:hover:not(:disabled) {
+  background-color: #4f46e5;
+}
+
+.ds-button--secondary {
+  background-color: #e2e8f0;
+  color: #1e293b;
+}
+.ds-button--secondary:hover:not(:disabled) {
+  background-color: #cbd5e1;
+}
+
+.ds-button--outline {
+  background-color: transparent;
+  color: #6366f1;
+  border: 2px solid #6366f1;
+}
+.ds-button--outline:hover:not(:disabled) {
+  background-color: #eef2ff;
+}
+
+/* Sizes */
+.ds-button--sm {
+  font-size: 0.75rem;
+  padding: 0.375rem 0.75rem;
+}
+
+.ds-button--md {
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+}
+
+.ds-button--lg {
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+}
