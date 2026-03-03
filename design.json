@@ -1,0 +1,522 @@
+{
+  "meta": {
+    "name": "Soft Card UI on Lime Canvas",
+    "purpose": "High-level design system guidelines and tokens to reproduce the attached screenshot’s look and feel.",
+    "tone": [
+      "bright",
+      "friendly",
+      "airy",
+      "calm",
+      "premium-minimal",
+      "approachable"
+    ],
+    "keywords": [
+      "rounded cards",
+      "soft shadows",
+      "pill chips",
+      "lavender accent",
+      "lime background wash",
+      "thin strokes",
+      "high whitespace"
+    ]
+  },
+  "design_principles": {
+    "visual_language": [
+      "Everything lives inside soft, floating white surfaces placed on a saturated lime canvas.",
+      "Prefer rounded rectangles and pills over sharp geometry; no hard edges.",
+      "Use subtle elevation + hairline borders instead of heavy contrast or dark dividers.",
+      "Whitespace is part of the brand: padding is generous and consistent."
+    ],
+    "hierarchy": [
+      "Hierarchy comes from size/weight and spacing, not from color blocks.",
+      "Primary actions are quiet but clear; secondary actions are outlined/ghost.",
+      "Accents are used sparingly (lavender and lime), mostly for controls and highlights."
+    ],
+    "consistency_rules": {
+      "corner_radius": "Prefer 16–24px on surfaces; 999px on pills; keep radius consistent within a component.",
+      "strokes": "1px hairlines in a warm-neutral gray; avoid heavy borders.",
+      "shadows": "One soft shadow style across the system; avoid multiple competing shadow types.",
+      "density": "Comfortable density; avoid cramped layouts. Default spacing scale is 8pt-based."
+    },
+    "do_not": [
+      "Do not use pure black text; use ink neutrals.",
+      "Do not use harsh drop shadows or high-opacity overlays.",
+      "Do not introduce saturated colors beyond the defined accent palette except for semantic states.",
+      "Do not rely on gradients; the system is flat + softly elevated."
+    ]
+  },
+  "layout": {
+    "grid": {
+      "base_unit_px": 8,
+      "columns_desktop": 12,
+      "gutter_px": 24,
+      "outer_margin_px": 32
+    },
+    "spacing_scale_px": {
+      "0": 0,
+      "1": 4,
+      "2": 8,
+      "3": 12,
+      "4": 16,
+      "5": 20,
+      "6": 24,
+      "7": 32,
+      "8": 40,
+      "9": 48,
+      "10": 56,
+      "11": 64
+    },
+    "surface_padding_defaults_px": {
+      "card": 24,
+      "card_dense": 16,
+      "section": 24,
+      "chip": 10,
+      "list_item": 16
+    },
+    "alignment": {
+      "default": "left",
+      "titles": "left",
+      "supporting_text": "left",
+      "controls": "right-aligned in rows when paired with labels",
+      "iconography": "icons align to the visual center; use consistent optical padding"
+    }
+  },
+  "typography": {
+    "font_families": {
+      "sans": [
+        "Inter",
+        "ui-sans-serif",
+        "system-ui",
+        "-apple-system",
+        "Segoe UI",
+        "Roboto",
+        "Helvetica",
+        "Arial"
+      ],
+      "mono": [
+        "ui-monospace",
+        "SFMono-Regular",
+        "Menlo",
+        "Monaco",
+        "Consolas",
+        "Liberation Mono",
+        "Courier New"
+      ]
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    },
+    "letter_spacing": {
+      "tight": -0.2,
+      "normal": 0,
+      "wide": 0.2
+    },
+    "type_scale": {
+      "display": { "size_px": 28, "line_height_px": 34, "weight": 700 },
+      "title": { "size_px": 20, "line_height_px": 26, "weight": 700 },
+      "subtitle": { "size_px": 14, "line_height_px": 20, "weight": 500 },
+      "body": { "size_px": 14, "line_height_px": 22, "weight": 400 },
+      "body_emphasis": { "size_px": 14, "line_height_px": 22, "weight": 600 },
+      "caption": { "size_px": 12, "line_height_px": 16, "weight": 400 },
+      "overline": { "size_px": 11, "line_height_px": 14, "weight": 600, "transform": "uppercase" }
+    },
+    "text_style_rules": [
+      "Use bold titles with calm, dark-ink neutrals; avoid shouting with oversized type.",
+      "Supporting text is smaller and lighter; keep it readable with adequate line-height.",
+      "Prefer sentence case; use uppercase sparingly for tiny labels (overlines only)."
+    ]
+  },
+  "color": {
+    "model": "hex",
+    "palette": {
+      "canvas_lime_500": "#D7E86D",
+      "surface_white": "#FFFFFF",
+      "ink_900": "#101828",
+      "ink_700": "#344054",
+      "ink_500": "#667085",
+      "stroke_200": "#EAECF0",
+      "stroke_300": "#D0D5DD",
+      "shadow_ink": "rgba(16, 24, 40, 0.10)",
+      "accent_lavender_500": "#7B61FF",
+      "accent_lavender_100": "#EEE9FF",
+      "accent_lime_500": "#CFEA64",
+      "accent_lime_700": "#B7D84E",
+      "semantic_success_500": "#12B76A",
+      "semantic_warning_500": "#F79009",
+      "semantic_error_500": "#F04438",
+      "semantic_info_500": "#2E90FA"
+    },
+    "tokens": {
+      "background": {
+        "app": "{palette.canvas_lime_500}",
+        "surface": "{palette.surface_white}"
+      },
+      "text": {
+        "primary": "{palette.ink_900}",
+        "secondary": "{palette.ink_700}",
+        "muted": "{palette.ink_500}",
+        "on_accent": "#FFFFFF"
+      },
+      "border": {
+        "default": "{palette.stroke_200}",
+        "strong": "{palette.stroke_300}",
+        "focus": "{palette.accent_lavender_500}"
+      },
+      "accent": {
+        "primary": "{palette.accent_lavender_500}",
+        "primary_soft": "{palette.accent_lavender_100}",
+        "highlight": "{palette.accent_lime_500}",
+        "highlight_strong": "{palette.accent_lime_700}"
+      },
+      "state": {
+        "success": "{palette.semantic_success_500}",
+        "warning": "{palette.semantic_warning_500}",
+        "error": "{palette.semantic_error_500}",
+        "info": "{palette.semantic_info_500}"
+      }
+    },
+    "usage_guidelines": [
+      "Let white surfaces do the heavy lifting; keep most components neutral.",
+      "Use lavender for interactive controls (toggles, rings, icons) and focus states.",
+      "Use lime as a brand highlight for selected states, subtle callouts, and primary CTA backgrounds.",
+      "Prefer soft accent fills (lavender-100) over fully saturated backgrounds."
+    ]
+  },
+  "shape": {
+    "radii_px": {
+      "xs": 8,
+      "sm": 12,
+      "md": 16,
+      "lg": 20,
+      "xl": 24,
+      "pill": 999
+    },
+    "stroke_width_px": {
+      "hairline": 1,
+      "control": 2
+    }
+  },
+  "elevation": {
+    "shadow_tokens": {
+      "none": "none",
+      "soft_1": "0 10px 30px rgba(16, 24, 40, 0.10)",
+      "soft_2": "0 18px 50px rgba(16, 24, 40, 0.12)"
+    },
+    "surface_treatment": [
+      "Cards should feel like they float slightly above the lime canvas.",
+      "Use one soft shadow style + a hairline border; avoid deep elevation stacking."
+    ]
+  },
+  "motion": {
+    "durations_ms": {
+      "fast": 120,
+      "base": 180,
+      "slow": 240
+    },
+    "easing": {
+      "standard": "cubic-bezier(0.2, 0.0, 0.0, 1.0)",
+      "entrance": "cubic-bezier(0.0, 0.0, 0.2, 1.0)",
+      "exit": "cubic-bezier(0.4, 0.0, 1.0, 1.0)"
+    },
+    "interaction_notes": [
+      "Micro-interactions should be subtle: slight scale (0.98–1.0), opacity shifts, and gentle color transitions.",
+      "Avoid bouncy or elastic effects; keep motion calm and UI-like."
+    ]
+  },
+  "iconography": {
+    "style": {
+      "stroke": "rounded",
+      "stroke_width_px": 1.5,
+      "fill": "none",
+      "corner_radius": "rounded",
+      "optical_alignment": "centered with consistent padding"
+    },
+    "color": {
+      "default": "{color.tokens.text.muted}",
+      "active": "{color.tokens.accent.primary}"
+    }
+  },
+  "imagery": {
+    "avatars": {
+      "shape": "circle",
+      "sizes_px": { "xs": 24, "sm": 28, "md": 36, "lg": 44 },
+      "border": { "width_px": 2, "color": "{color.tokens.background.surface}" },
+      "group_overlap_px": 8,
+      "group_max_visible": 5
+    }
+  },
+  "components": {
+    "app_canvas": {
+      "description": "The full-page lime background wash that makes white cards pop.",
+      "background_color": "{color.tokens.background.app}",
+      "content_spacing_px": 32,
+      "rule": "Never place dense text directly on the canvas; always on a surface."
+    },
+    "surface_card": {
+      "description": "Primary container for all content; white, rounded, softly elevated.",
+      "background": "{color.tokens.background.surface}",
+      "radius_px": "{shape.radii_px.xl}",
+      "border": { "width_px": "{shape.stroke_width_px.hairline}", "color": "{color.tokens.border.default}" },
+      "shadow": "{elevation.shadow_tokens.soft_1}",
+      "padding_px": "{layout.surface_padding_defaults_px.card}",
+      "header_spacing_px": 12,
+      "section_spacing_px": 16,
+      "internal_dividers": {
+        "use": "rare",
+        "style": "hairline",
+        "color": "{color.tokens.border.default}"
+      }
+    },
+    "typography_block": {
+      "description": "Default text stack inside cards.",
+      "title": { "style": "title", "color": "{color.tokens.text.primary}" },
+      "subtitle": { "style": "subtitle", "color": "{color.tokens.text.muted}" },
+      "body": { "style": "body", "color": "{color.tokens.text.secondary}" },
+      "spacing_px": { "title_to_subtitle": 4, "subtitle_to_body": 8 }
+    },
+    "chip": {
+      "description": "Pill tags for skills/categories; neutral with subtle border.",
+      "shape": "pill",
+      "radius_px": "{shape.radii_px.pill}",
+      "padding_px": { "x": 12, "y": 8 },
+      "gap_px": 8,
+      "border": { "width_px": 1, "color": "{color.tokens.border.default}" },
+      "background": "{color.tokens.background.surface}",
+      "text": { "style": "caption", "weight": 500, "color": "{color.tokens.text.secondary}" },
+      "states": {
+        "default": {},
+        "hover": { "border_color": "{color.tokens.border.strong}" },
+        "selected": {
+          "background": "{color.tokens.accent.highlight}",
+          "border_color": "{color.tokens.accent.highlight_strong}",
+          "text_color": "{color.tokens.text.primary}"
+        }
+      }
+    },
+    "button": {
+      "description": "Quiet buttons; rounded, minimal, with clear focus and soft hover.",
+      "radius_px": "{shape.radii_px.md}",
+      "sizes": {
+        "sm": { "height_px": 32, "padding_x_px": 12, "text_style": "caption" },
+        "md": { "height_px": 40, "padding_x_px": 16, "text_style": "body_emphasis" }
+      },
+      "variants": {
+        "primary": {
+          "background": "{color.tokens.accent.highlight}",
+          "text_color": "{color.tokens.text.primary}",
+          "border": { "width_px": 0, "color": "transparent" },
+          "hover": { "background": "{color.tokens.accent.highlight_strong}" },
+          "active": { "background": "{color.tokens.accent.highlight_strong}", "scale": 0.98 }
+        },
+        "secondary": {
+          "background": "{color.tokens.background.surface}",
+          "text_color": "{color.tokens.text.secondary}",
+          "border": { "width_px": 1, "color": "{color.tokens.border.default}" },
+          "hover": { "border_color": "{color.tokens.border.strong}" },
+          "active": { "scale": 0.98 }
+        },
+        "ghost": {
+          "background": "transparent",
+          "text_color": "{color.tokens.text.secondary}",
+          "hover": { "background": "rgba(255,255,255,0.50)" },
+          "active": { "background": "rgba(255,255,255,0.65)", "scale": 0.98 }
+        }
+      },
+      "focus_ring": { "width_px": 2, "color": "{color.tokens.border.focus}", "offset_px": 2 }
+    },
+    "icon_button": {
+      "description": "Small rounded-square or pill icon-only control (e.g. kebab menu).",
+      "size_px": 36,
+      "radius_px": "{shape.radii_px.md}",
+      "background": "{color.tokens.background.surface}",
+      "border": { "width_px": 1, "color": "{color.tokens.border.default}" },
+      "icon_color": "{color.tokens.text.muted}",
+      "hover": { "border_color": "{color.tokens.border.strong}" },
+      "active": { "scale": 0.98 },
+      "focus_ring": "{button.focus_ring}"
+    },
+    "list_row": {
+      "description": "Row component used for people lists and integration lists.",
+      "height_px": 64,
+      "padding_px": { "x": 16, "y": 12 },
+      "radius_px": "{shape.radii_px.lg}",
+      "background": "{color.tokens.background.surface}",
+      "border": { "width_px": 1, "color": "{color.tokens.border.default}" },
+      "content_layout": {
+        "left": "avatar/icon",
+        "middle": "title + subtitle",
+        "right": "trailing icon/control"
+      },
+      "text": {
+        "title": { "style": "body_emphasis", "color": "{color.tokens.text.primary}" },
+        "subtitle": { "style": "caption", "color": "{color.tokens.text.muted}" }
+      }
+    },
+    "notification_item": {
+      "description": "Notification card rows with message, timestamp, and inline actions.",
+      "container": "{surface_card}",
+      "row_spacing_px": 12,
+      "meta": { "timestamp_style": "caption", "timestamp_color": "{color.tokens.text.muted}" },
+      "actions": {
+        "primary": "button.primary (sm)",
+        "secondary": "button.secondary (sm)",
+        "layout": "right-aligned, 8px gap"
+      },
+      "unread_badge": {
+        "shape": "pill",
+        "background": "{color.tokens.accent.highlight}",
+        "text": { "style": "caption", "weight": 700, "color": "{color.tokens.text.primary}" },
+        "padding_px": { "x": 8, "y": 4 }
+      }
+    },
+    "calendar": {
+      "description": "Monthly calendar inside a card; minimal chrome, clear selected day.",
+      "header": {
+        "month_label_style": "subtitle",
+        "month_label_weight": 600,
+        "nav_chevrons": "icon_button (ghost-like, no border if desired)"
+      },
+      "weekday_row": {
+        "style": "overline",
+        "color": "{color.tokens.text.muted}",
+        "spacing_px": 12
+      },
+      "day_cell": {
+        "size_px": 36,
+        "radius_px": "{shape.radii_px.md}",
+        "text_style": "caption",
+        "default": {
+          "text_color": "{color.tokens.text.secondary}",
+          "background": "transparent"
+        },
+        "muted_outside_month": { "text_color": "rgba(102,112,133,0.45)" },
+        "selected": {
+          "background": "{color.tokens.accent.highlight}",
+          "text_color": "{color.tokens.text.primary}"
+        },
+        "today": {
+          "border_width_px": 1,
+          "border_color": "{color.tokens.border.focus}",
+          "text_color": "{color.tokens.text.primary}"
+        }
+      }
+    },
+    "progress_ring": {
+      "description": "Thin circular progress indicator used as a compact KPI.",
+      "size_px": 40,
+      "track": { "color": "{color.tokens.border.default}", "width_px": 4 },
+      "indicator": { "color": "{color.tokens.accent.primary}", "width_px": 4, "cap": "round" },
+      "label": { "style": "caption", "weight": 600, "color": "{color.tokens.text.secondary}" }
+    },
+    "toggle_switch": {
+      "description": "Modern iOS-like toggle used in integration settings.",
+      "size_px": { "width": 44, "height": 24 },
+      "thumb_size_px": 20,
+      "radius_px": "{shape.radii_px.pill}",
+      "off": {
+        "track_background": "{color.tokens.border.default}",
+        "thumb_background": "{color.tokens.background.surface}"
+      },
+      "on": {
+        "track_background": "{color.tokens.accent.primary}",
+        "thumb_background": "{color.tokens.background.surface}"
+      },
+      "motion": { "duration_ms": "{motion.durations_ms.base}", "easing": "{motion.easing.standard}" },
+      "focus_ring": "{button.focus_ring}"
+    },
+    "avatar_group": {
+      "description": "Overlapping avatar group inside cards.",
+      "avatar": "{imagery.avatars}",
+      "layout": {
+        "direction": "row",
+        "overlap_px": "{imagery.avatars.group_overlap_px}",
+        "z_order": "last avatar on top"
+      }
+    },
+    "section_header": {
+      "description": "Card header with title on left and small action on right (e.g. View details).",
+      "layout": "row, space-between, center",
+      "title_style": "subtitle",
+      "action": "button.secondary (sm) or link_button",
+      "spacing_px": 12
+    },
+    "link_button": {
+      "description": "Text-only action styled like a button but with minimal chrome.",
+      "text_style": "caption",
+      "weight": 600,
+      "color": "{color.tokens.text.secondary}",
+      "hover": { "color": "{color.tokens.text.primary}" },
+      "focus_ring": "{button.focus_ring}"
+    },
+    "input": {
+      "description": "Soft inputs that match the card language.",
+      "height_px": 40,
+      "radius_px": "{shape.radii_px.md}",
+      "padding_px": { "x": 12, "y": 10 },
+      "background": "{color.tokens.background.surface}",
+      "border": { "width_px": 1, "color": "{color.tokens.border.default}" },
+      "text": { "style": "body", "color": "{color.tokens.text.primary}" },
+      "placeholder_color": "rgba(102,112,133,0.65)",
+      "focus": { "border_color": "{color.tokens.border.focus}", "shadow": "0 0 0 3px rgba(123, 97, 255, 0.18)" },
+      "error": { "border_color": "{color.tokens.state.error}", "shadow": "0 0 0 3px rgba(240, 68, 56, 0.15)" }
+    },
+    "divider": {
+      "description": "Hairline divider used sparingly inside cards.",
+      "height_px": 1,
+      "color": "{color.tokens.border.default}",
+      "margins_px": { "top": 16, "bottom": 16 }
+    },
+    "tooltip": {
+      "description": "Small, soft tooltip with rounded corners and subtle shadow.",
+      "background": "{color.tokens.text.primary}",
+      "text_color": "{color.tokens.text.on_accent}",
+      "radius_px": "{shape.radii_px.sm}",
+      "padding_px": { "x": 10, "y": 8 },
+      "shadow": "{elevation.shadow_tokens.soft_1}"
+    },
+    "modal": {
+      "description": "Centered modal that feels like a bigger card.",
+      "surface": "{surface_card}",
+      "radius_px": "{shape.radii_px.xl}",
+      "max_width_px": 560,
+      "overlay": "rgba(16,24,40,0.35)",
+      "enter_motion": { "duration_ms": "{motion.durations_ms.slow}", "easing": "{motion.easing.entrance}", "transform": "translateY(6px) scale(0.98)" }
+    },
+    "table": {
+      "description": "If needed, tables should still feel card-like: lots of padding, minimal lines.",
+      "row_height_px": 56,
+      "cell_padding_px": { "x": 16, "y": 12 },
+      "header": { "style": "overline", "color": "{color.tokens.text.muted}" },
+      "borders": "hairlines only; prefer zebra via very subtle tint over thick grid lines",
+      "hover": "very subtle background tint (rgba(255,255,255,0.55))"
+    }
+  },
+  "composition_patterns": {
+    "card_stacks": [
+      "Use a clear top header row (title + trailing action), then content blocks separated by spacing (not lines).",
+      "Prefer 2-column micro-layouts inside a card (label left, value/control right).",
+      "Use avatar groups and small rings as compact visual interest, never as decoration."
+    ],
+    "microcopy": [
+      "Short, clear labels; supporting copy is calm and matter-of-fact.",
+      "Avoid overly technical wording in UI; prefer product language."
+    ]
+  },
+  "accessibility": {
+    "contrast_intent": [
+      "Primary text on white surfaces should meet AA contrast; avoid low-opacity gray for essential info.",
+      "Lavender focus rings must remain visible against both white surfaces and the lime canvas."
+    ],
+    "hit_targets_px": {
+      "minimum": 40,
+      "recommended": 44
+    },
+    "focus": {
+      "always_visible": true,
+      "style": "{button.focus_ring}"
+    }
+  }
+}
