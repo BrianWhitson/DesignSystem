@@ -89,6 +89,8 @@
     if (!book) return;
 
     panel.classList.add("is-visible");
+    const listing = document.querySelector("[data-book-listing]");
+    if (listing) listing.hidden = true;
     panel.innerHTML = `
       <p class="breadcrumb"><a href="books.html">Books</a> / ${window.Affiliate.escapeHtml(book.title)}</p>
       <div class="split-grid">

@@ -30,6 +30,9 @@
     const post = posts.find((item) => item.slug === slug);
     if (!post) return false;
 
+    const index = document.querySelector("[data-blog-index]");
+    if (index) index.hidden = true;
+
     articleTarget.innerHTML = `
       <article class="article">
         <p class="breadcrumb"><a href="blog.html">Blog</a> / ${window.Affiliate.escapeHtml(post.category)}</p>

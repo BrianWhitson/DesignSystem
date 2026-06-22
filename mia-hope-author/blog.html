@@ -44,19 +44,21 @@
       <section class="section">
         <div class="container">
           <div data-blog-article aria-live="polite"></div>
-          <div class="controls" aria-label="Blog search and filtering controls">
-            <label class="field">
-              <span>Search articles</span>
-              <input type="search" data-blog-search placeholder="Search writing, romance, reading lists..." autocomplete="off">
-            </label>
-            <label class="field">
-              <span>Filter by category</span>
-              <select data-blog-filter>
-                <option value="all">All categories</option>
-              </select>
-            </label>
+          <div data-blog-index>
+            <div class="controls" aria-label="Blog search and filtering controls">
+              <label class="field">
+                <span>Search articles</span>
+                <input type="search" data-blog-search placeholder="Search writing, romance, reading lists..." autocomplete="off">
+              </label>
+              <label class="field">
+                <span>Filter by category</span>
+                <select data-blog-filter>
+                  <option value="all">All categories</option>
+                </select>
+              </label>
+            </div>
+            <div class="card-grid blog-grid" data-blog-list aria-live="polite"></div>
           </div>
-          <div class="card-grid blog-grid" data-blog-list aria-live="polite"></div>
         </div>
       </section>
     </main>
