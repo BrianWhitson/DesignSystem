@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="560" viewBox="0 0 420 560" role="img" aria-labelledby="title desc">
+  <title id="title">Coastal romance recommendation placeholder</title>
+  <desc id="desc">A coastal-themed lavender recommendation placeholder.</desc>
+  <rect width="420" height="560" rx="28" fill="#c8a2c8"/>
+  <circle cx="318" cy="118" r="74" fill="#eadcf8"/>
+  <rect x="52" y="72" width="316" height="418" rx="22" fill="#ffffff" opacity=".83"/>
+  <text x="210" y="238" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#333333">Coastal</text>
+  <text x="210" y="284" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#333333">Romance</text>
+  <path d="M108 386c34-20 68-20 102 0s68 20 102 0" fill="none" stroke="#8e6aae" stroke-width="12" stroke-linecap="round"/>
+</svg>

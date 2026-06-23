@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="720" viewBox="0 0 480 720" role="img" aria-labelledby="title desc">
+  <title id="title">Lavender small-town romance book cover placeholder</title>
+  <desc id="desc">A lavender placeholder cover for Mia Hope catalog entries.</desc>
+  <rect width="480" height="720" rx="32" fill="#c8a2c8"/>
+  <circle cx="380" cy="120" r="96" fill="#eadcf8" opacity=".75"/>
+  <rect x="60" y="84" width="360" height="552" rx="26" fill="#fff" opacity=".82"/>
+  <text x="240" y="250" text-anchor="middle" font-family="Georgia, serif" font-size="44" fill="#333333">Mia Hope</text>
+  <text x="240" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" fill="#6d4c86">Romance</text>
+  <text x="240" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#6d4c86">Placeholder</text>
+  <path d="M175 492c0-38 30-68 67-68s67 30 67 68c0 52-67 95-67 95s-67-43-67-95z" fill="#8e6aae" opacity=".88"/>
+</svg>

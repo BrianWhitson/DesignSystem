@@ -1,0 +1,32 @@
+[
+  {
+    "id": "romance-craft-guide",
+    "title": "Romance Craft Guide",
+    "category": "Writing Inspiration",
+    "cover": "images/recommendation-placeholder-1.svg",
+    "amazonLink": "https://www.amazon.com/?tag=yourassociateid-20",
+    "whyRecommended": "This placeholder represents the kind of practical craft book romance writers can use to strengthen emotional arcs, character growth, and satisfying endings.",
+    "whoWouldEnjoy": "Aspiring romance writers, book club hosts, and readers who enjoy understanding how love stories are built.",
+    "affiliateDisclosure": true
+  },
+  {
+    "id": "coastal-romance-read",
+    "title": "Coastal Romance Read",
+    "category": "Books Mia Loves",
+    "cover": "images/recommendation-placeholder-2.svg",
+    "amazonLink": "https://www.amazon.com/?tag=yourassociateid-20",
+    "whyRecommended": "Readers who enjoy Mia's southern coastal voice often appreciate romances where place, community, and family history shape the love story.",
+    "whoWouldEnjoy": "Fans of small-town romance, beach reads, second chances, and emotionally generous storytelling.",
+    "affiliateDisclosure": true
+  },
+  {
+    "id": "book-club-journal",
+    "title": "Book Club Journal",
+    "category": "Reader Resources",
+    "cover": "images/recommendation-placeholder-3.svg",
+    "amazonLink": "https://www.amazon.com/?tag=yourassociateid-20",
+    "whyRecommended": "A reading journal can help readers remember favorite characters, meaningful quotes, and discussion questions for future book club gatherings.",
+    "whoWouldEnjoy": "Dedicated romance readers, book club members, and newsletter subscribers who like tracking their reading life.",
+    "affiliateDisclosure": true
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "id": "southern-hearts-at-sunset",
+    "title": "Southern Hearts at Sunset",
+    "subtitle": "A contemporary romance placeholder title",
+    "description": "A tender contemporary romance about wounded hearts, second chances, and the courage it takes to trust love again on the Carolina coast.",
+    "longDescription": "Use this record as the model for Mia Hope's published books. Replace the title, description, dates, reviews, and purchase links with verified author-approved copy before launch.",
+    "genre": "Contemporary Romance",
+    "releaseDate": "2026-03-15",
+    "cover": "images/book-placeholder-1.svg",
+    "amazonLink": "https://www.amazon.com/?tag=yourassociateid-20",
+    "affiliateDisclosure": true,
+    "featured": true,
+    "tags": ["Romance", "Second Chance", "Coastal"],
+    "reviews": [
+      {
+        "quote": "A heartfelt romance with relatable characters and warm southern charm.",
+        "source": "Reader review placeholder"
+      },
+      {
+        "quote": "Perfect for readers who love vulnerable heroes and independent heroines.",
+        "source": "Editorial note placeholder"
+      }
+    ],
+    "purchaseOptions": [
+      {
+        "label": "Paperback",
+        "url": "https://www.amazon.com/?tag=yourassociateid-20"
+      },
+      {
+        "label": "Kindle",
+        "url": "https://www.amazon.com/?tag=yourassociateid-20"
+      }
+    ]
+  },
+  {
+    "id": "rescued-by-love",
+    "title": "Rescued by Love",
+    "subtitle": "A small-town romance placeholder title",
+    "description": "An emotional romance about found family, fresh starts, and the rescue animals that help two guarded people find their way home.",
+    "longDescription": "This placeholder supports the redesigned catalog layout until final book metadata and approved cover art are available.",
+    "genre": "Small-Town Romance",
+    "releaseDate": "2026-08-20",
+    "cover": "images/book-placeholder-2.svg",
+    "amazonLink": "https://www.amazon.com/?tag=yourassociateid-20",
+    "affiliateDisclosure": true,
+    "featured": true,
+    "tags": ["Romance", "Found Family", "Animals"],
+    "reviews": [
+      {
+        "quote": "Warm, emotional, and filled with the kind of characters readers want to revisit.",
+        "source": "Reader review placeholder"
+      }
+    ],
+    "purchaseOptions": [
+      {
+        "label": "Paperback",
+        "url": "https://www.amazon.com/?tag=yourassociateid-20"
+      },
+      {
+        "label": "Kindle",
+        "url": "https://www.amazon.com/?tag=yourassociateid-20"
+      }
+    ]
+  },
+  {
+    "id": "the-pickleball-promise",
+    "title": "The Pickleball Promise",
+    "subtitle": "A romantic comedy placeholder title",
+    "description": "A lighthearted romance about competition, community, and the unexpected joy of meeting your match on and off the court.",
+    "longDescription": "Replace this entry with a verified backlist or upcoming release. The structure is ready for ISBNs, publisher data, and retailer links when available.",
+    "genre": "Romantic Comedy",
+    "releaseDate": "2027-02-10",
+    "cover": "images/book-placeholder-3.svg",
+    "amazonLink": "https://www.amazon.com/?tag=yourassociateid-20",
+    "affiliateDisclosure": true,
+    "featured": false,
+    "tags": ["Romance", "Comedy", "Sports"],
+    "reviews": [
+      {
+        "quote": "Bright, witty, and full of the spirited heroine energy Mia Hope readers enjoy.",
+        "source": "Editorial note placeholder"
+      }
+    ],
+    "purchaseOptions": [
+      {
+        "label": "Paperback",
+        "url": "https://www.amazon.com/?tag=yourassociateid-20"
+      },
+      {
+        "label": "Kindle",
+        "url": "https://www.amazon.com/?tag=yourassociateid-20"
+      }
+    ]
+  }
+]

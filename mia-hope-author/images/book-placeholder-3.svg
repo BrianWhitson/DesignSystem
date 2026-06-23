@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="720" viewBox="0 0 480 720" role="img" aria-labelledby="title desc">
+  <title id="title">Romantic comedy book cover placeholder</title>
+  <desc id="desc">A bright purple placeholder cover for Mia Hope future titles.</desc>
+  <rect width="480" height="720" rx="32" fill="#eadcf8"/>
+  <rect x="70" y="88" width="340" height="544" rx="30" fill="#8e6aae" opacity=".88"/>
+  <text x="240" y="245" text-anchor="middle" font-family="Georgia, serif" font-size="44" fill="#ffffff">Mia Hope</text>
+  <text x="240" y="318" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" fill="#ffffff">Future Title</text>
+  <text x="240" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#f6ecff">Placeholder</text>
+  <circle cx="192" cy="505" r="42" fill="#fff" opacity=".85"/>
+  <circle cx="288" cy="505" r="42" fill="#fff" opacity=".85"/>
+  <path d="M202 548c28 22 48 22 76 0" fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round"/>
+</svg>
