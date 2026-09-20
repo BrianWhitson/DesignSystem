@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="720" viewBox="0 0 480 720" role="img" aria-labelledby="title desc">
-  <title id="title">Purple contemporary romance book cover placeholder</title>
-  <desc id="desc">A soft purple placeholder cover for Mia Hope book data.</desc>
+  <title id="title">Warm editorial book cover placeholder</title>
+  <desc id="desc">A soft warm editorial placeholder cover for Lucy Nell Publishing book data.</desc>
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#eadcf8"/>
-      <stop offset="1" stop-color="#8e6aae"/>
+      <stop offset="0" stop-color="#f2e4d5"/>
+      <stop offset="1" stop-color="#9a5a3f"/>
     </linearGradient>
   </defs>
   <rect width="480" height="720" rx="32" fill="url(#g)"/>
   <rect x="52" y="70" width="376" height="580" rx="24" fill="#ffffff" opacity=".78"/>
-  <text x="240" y="250" text-anchor="middle" font-family="Georgia, serif" font-size="44" fill="#333333">Mia Hope</text>
+  <text x="240" y="250" text-anchor="middle" font-family="Georgia, serif" font-size="44" fill="#333333">Lucy Nell Publishing</text>
   <text x="240" y="318" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#6d4c86">Book Cover</text>
   <text x="240" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#6d4c86">Placeholder</text>
-  <path d="M135 500c40-60 170-60 210 0" fill="none" stroke="#c8a2c8" stroke-width="18" stroke-linecap="round"/>
+  <path d="M135 500c40-60 170-60 210 0" fill="none" stroke="#c8845d" stroke-width="18" stroke-linecap="round"/>
 </svg>

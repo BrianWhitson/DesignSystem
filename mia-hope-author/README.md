@@ -1,6 +1,6 @@
-# Mia Hope Author Website
+# Lucy Nell Publishing Website
 
-Modern static author website for Mia Hope, built with HTML5, CSS3, vanilla JavaScript, and JSON content files.
+Modern static publishing website for Lucy Nell Publishing, built with HTML5, CSS3, vanilla JavaScript, and JSON content files.
 
 ## Project structure
 
@@ -53,7 +53,7 @@ Book cards, detail views, reviews, filters, purchase buttons, and Book schema ar
 1. Put Amazon URLs only in JSON fields such as `amazonLink` or `purchaseOptions[].url`.
 2. Use the reusable component in `js/affiliate.js`; it adds `rel="nofollow sponsored noopener"`.
 3. Keep a nearby disclosure for every Amazon button: `Affiliate link. As an Amazon Associate I earn from qualifying purchases.`
-4. Do not claim Amazon endorses Mia Hope, the books, or the website.
+4. Do not claim Amazon endorses Lucy Nell Publishing, the books, or the website.
 5. Do not copy Amazon product descriptions, Amazon reviews, Amazon star ratings, or Amazon logos.
 6. Add original commentary to recommendations explaining why the item is helpful and who would enjoy it.
 
@@ -91,7 +91,7 @@ Add testimonials or press placeholders to `data/testimonials.json`.
 - [x] Recommendations include original commentary and are not thin product listings.
 - [x] No Amazon logos are used.
 - [x] No copied Amazon product descriptions or reviews are included.
-- [x] Website provides author information, blog posts, resources, and reader community value beyond affiliate links.
+- [x] Website provides publishing information, blog posts, resources, and reader community value beyond affiliate links.
 - [x] Responsive layout is implemented.
 - [x] SEO metadata and structured data are implemented.
 - [x] JSON content architecture supports future growth.

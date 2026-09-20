@@ -127,11 +127,11 @@
         "description": book.description,
         "genre": book.genre,
         "datePublished": book.releaseDate,
-        "author": {
-          "@type": "Person",
-          "name": "Mia Hope"
+        "publisher": {
+          "@type": "Organization",
+          "name": "Lucy Nell Publishing"
         },
-        "url": `https://www.miahopeauthor.com/books.html?book=${book.id}`
+        "url": `https://www.lucynellpublishing.com/books.html?book=${book.id}`
       }))
     });
   }
