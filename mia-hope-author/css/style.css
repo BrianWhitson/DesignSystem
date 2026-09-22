@@ -227,8 +227,8 @@ h3 {
 
 h1 {
   margin: 0;
-  font-size: clamp(2.55rem, 12vw, 5.75rem);
-  letter-spacing: -0.05em;
+  font-size: clamp(2.2rem, 7vw, 4.25rem);
+  letter-spacing: -0.035em;
 }
 
 h2 {
