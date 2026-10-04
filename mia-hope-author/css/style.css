@@ -651,7 +651,11 @@ cite {
 
 .about-author-card {
   align-self: start;
-  padding-bottom: 44px;
+  padding-bottom: 72px;
+}
+
+.bio-card-spacer {
+  height: 24px;
 }
 
 .article-meta {
