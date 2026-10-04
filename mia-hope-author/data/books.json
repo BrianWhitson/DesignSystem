@@ -24,7 +24,7 @@
       "Nanny Romance",
       "Snowed In"
     ],
-    "cover": "images/covers/snowed-in-with-a-grump.jpg",
+    "cover": "images/books/snowed-in-with-a-grump.jpg",
     "fallbackCover": "images/book-placeholder-1.svg",
     "affiliateDisclosure": true,
     "featured": true,
@@ -68,7 +68,7 @@
       "Single Dad",
       "Chef Romance"
     ],
-    "cover": "images/covers/the-nanny-and-the-grump.jpg",
+    "cover": "images/books/the-nanny-and-the-grump.jpg",
     "fallbackCover": "images/book-placeholder-2.svg",
     "affiliateDisclosure": true,
     "featured": true,
@@ -119,7 +119,7 @@
       "Chef Romance",
       "Snowed In"
     ],
-    "cover": "images/covers/the-grumpy-chefs-nanny.jpg",
+    "cover": "images/books/the-grumpy-chefs-nanny.jpg",
     "fallbackCover": "images/book-placeholder-3.svg",
     "affiliateDisclosure": true,
     "featured": true,
@@ -167,7 +167,7 @@
       "Single Dad",
       "Nanny Romance"
     ],
-    "cover": "images/covers/falling-for-the-grump.jpg",
+    "cover": "images/books/falling-for-the-grump.jpg",
     "fallbackCover": "images/book-placeholder-1.svg",
     "affiliateDisclosure": true,
     "featured": false,
@@ -215,7 +215,7 @@
       "Sabotage",
       "Wholesome"
     ],
-    "cover": "images/covers/love-awaits-at-channel-3.jpg",
+    "cover": "images/books/love-awaits-at-channel-3.jpg",
     "fallbackCover": "images/book-placeholder-2.svg",
     "affiliateDisclosure": true,
     "featured": false,
@@ -259,7 +259,7 @@
       "Restaurant",
       "Forced Proximity"
     ],
-    "cover": "images/covers/love-awaits-at-the-hollow.jpg",
+    "cover": "images/books/love-awaits-at-the-hollow.jpg",
     "fallbackCover": "images/book-placeholder-3.svg",
     "affiliateDisclosure": true,
     "featured": false,
@@ -304,7 +304,7 @@
       "Inheritance",
       "Inn Restoration"
     ],
-    "cover": "images/covers/love-awaits-at-willow-creek.jpg",
+    "cover": "images/books/love-awaits-at-willow-creek.jpg",
     "fallbackCover": "images/book-placeholder-1.svg",
     "affiliateDisclosure": true,
     "featured": false,
@@ -351,7 +351,7 @@
       "Community",
       "Cafe"
     ],
-    "cover": "images/covers/love-awaits-at-maple-springs.jpg",
+    "cover": "images/books/love-awaits-at-maple-springs.jpg",
     "fallbackCover": "images/book-placeholder-2.svg",
     "affiliateDisclosure": true,
     "featured": false,
@@ -394,7 +394,7 @@
       "Opposites Attract",
       "Montana"
     ],
-    "cover": "images/covers/love-blooms-at-hope-ranch.jpg",
+    "cover": "images/books/love-blooms-at-hope-ranch.jpg",
     "fallbackCover": "images/book-placeholder-3.svg",
     "affiliateDisclosure": true,
     "featured": false,
@@ -439,7 +439,7 @@
       "Slow Burn",
       "Veterinarian"
     ],
-    "cover": "images/covers/love-grows-at-hope-ranch.jpg",
+    "cover": "images/books/love-grows-at-hope-ranch.jpg",
     "fallbackCover": "images/book-placeholder-1.svg",
     "affiliateDisclosure": true,
     "featured": false,
@@ -485,7 +485,7 @@
       "Rivals",
       "Montana"
     ],
-    "cover": "images/covers/rodeo-rivals.jpg",
+    "cover": "images/books/rodeo-rivals.jpg",
     "fallbackCover": "images/book-placeholder-2.svg",
     "affiliateDisclosure": true,
     "featured": false,
@@ -531,7 +531,7 @@
       "North Carolina Mountains",
       "Prequel Novella"
     ],
-    "cover": "images/covers/the-handymans-list.jpg",
+    "cover": "images/books/the-handymans-list.jpg",
     "fallbackCover": "images/book-placeholder-3.svg",
     "affiliateDisclosure": true,
     "featured": false,

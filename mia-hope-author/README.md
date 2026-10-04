@@ -48,6 +48,12 @@ Do not open the HTML files directly with `file://` because browser security rule
 
 Book cards, detail views, reviews, filters, purchase buttons, and Book schema are generated from this file.
 
+## Adding book covers
+
+Upload final book covers to `images/books/` using the book `id` as the filename, for example `snowed-in-with-a-grump.jpg`.
+
+The catalog and individual book pages use `object-fit: contain` so uploaded covers resize responsively without cropping. If a final cover is missing, the page falls back to the local SVG placeholder.
+
 ## Adding Amazon affiliate links safely
 
 1. Put Amazon URLs only in JSON fields such as `amazonLink` or `purchaseOptions[].url`.
