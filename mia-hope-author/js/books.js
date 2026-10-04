@@ -52,6 +52,7 @@
           <ul class="tag-list" aria-label="Book themes">
             ${book.tags.map((tag) => `<li>${window.Affiliate.escapeHtml(tag)}</li>`).join("")}
           </ul>
+          <a class="book-detail-link" href="${detailLink}">Read book details</a>
           ${window.Affiliate.createAffiliateButton(book.amazonLink, buttonText)}
         </div>
       </article>

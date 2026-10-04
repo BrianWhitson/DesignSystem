@@ -481,6 +481,11 @@ button.button:hover {
   background: var(--color-secondary);
 }
 
+.book-card .book-cover {
+  height: clamp(240px, 28vw, 330px);
+  aspect-ratio: auto;
+}
+
 .book-body,
 .recommendation-body {
   display: flex;
@@ -514,6 +519,14 @@ button.button:hover {
 
 .affiliate-product {
   margin-top: auto;
+}
+
+.book-detail-link {
+  display: inline-flex;
+  width: fit-content;
+  margin: 2px 0 18px;
+  color: var(--color-accent-dark);
+  font-weight: 900;
 }
 
 .affiliate-button {
