@@ -649,6 +649,11 @@ cite {
   box-shadow: var(--shadow-card);
 }
 
+.about-author-card {
+  align-self: start;
+  padding-bottom: 44px;
+}
+
 .article-meta {
   color: var(--color-muted);
   font-weight: 800;
