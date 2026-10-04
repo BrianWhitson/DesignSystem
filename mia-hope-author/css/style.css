@@ -651,11 +651,11 @@ cite {
 
 .about-author-card {
   align-self: start;
-  padding-bottom: 72px;
+  padding-bottom: 120px;
 }
 
 .bio-card-spacer {
-  height: 24px;
+  height: 96px;
 }
 
 .article-meta {
