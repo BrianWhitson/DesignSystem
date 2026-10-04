@@ -473,6 +473,14 @@ button.button:hover {
   flex-direction: column;
 }
 
+.book-card > a {
+  order: 2;
+}
+
+.book-card .book-body {
+  order: 1;
+}
+
 .book-cover,
 .recommendation-cover {
   width: 100%;
@@ -482,7 +490,7 @@ button.button:hover {
 }
 
 .book-card .book-cover {
-  height: clamp(240px, 28vw, 330px);
+  height: clamp(180px, 22vw, 240px);
   aspect-ratio: auto;
 }
 
@@ -492,6 +500,13 @@ button.button:hover {
   flex: 1;
   flex-direction: column;
   padding: 22px;
+}
+
+.book-card .book-body > p {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
 }
 
 .meta-list,
