@@ -1,95 +1,552 @@
 [
   {
-    "id": "featured-title-placeholder",
-    "title": "Featured Title Placeholder",
-    "subtitle": "A Lucy Nell Publishing catalog placeholder",
-    "description": "A placeholder description for a future Lucy Nell Publishing title. Replace this with approved catalog copy before launch.",
-    "longDescription": "Use this record as the model for Lucy Nell Publishing's published books. Replace the title, description, dates, reviews, and purchase links with verified author-approved copy before launch.",
-    "genre": "Fiction",
-    "releaseDate": "2026-03-15",
-    "cover": "images/book-placeholder-1.svg",
-    "amazonLink": "https://www.amazon.com/?tag=yourassociateid-20",
+    "id": "snowed-in-with-a-grump",
+    "title": "Snowed in With a Grump",
+    "subtitle": "An Enemies to Lovers Boss Romance (Cooking with Sexy Grumps Book 1)",
+    "series": "Cooking with Sexy Grumps",
+    "seriesOrder": 1,
+    "genre": "Contemporary Romance",
+    "amazonLink": "https://a.co/d/03NXQzjR",
+    "description": "I became the nanny to my childhood crush, Ethan Carter, my older brother’s best friend. He’s gorgeous, successful, and completely off-limits.",
+    "content": [
+      "I became the nanny to my childhood crush, Ethan Carter, my older brother’s best friend. He’s gorgeous, successful, and completely off-limits.",
+      "He’s a single dad. And the grumpiest man alive.",
+      "I end up snowed in with him and his daughter, playing house like it's a holiday rom-com. Only this time, I’m the nanny, not the obnoxious little sister. And he’s the one looking at me like he might like what he sees.",
+      "It starts with one awkward night, and a tray of burnt cookies. But then it’s story time giggles, accidental touches, and him whispering, “stay”. We both know better.",
+      "But I fall hard. For the little girl who radiates sunshine. For the man who swore he’d never fall again.",
+      "And loving him might be the bravest—and most dangerous—thing I’ve ever done.",
+      "Ethan Carter doesn’t do messy. He doesn’t do me. He won’t let anything, or anyone break his daughter’s heart again…or his, either."
+    ],
+    "tags": [
+      "Enemies to Lovers",
+      "Boss Romance",
+      "Single Dad",
+      "Nanny Romance",
+      "Snowed In"
+    ],
+    "cover": "images/covers/snowed-in-with-a-grump.jpg",
+    "fallbackCover": "images/book-placeholder-1.svg",
     "affiliateDisclosure": true,
     "featured": true,
-    "tags": ["Fiction", "Featured", "Catalog"],
+    "releaseDate": "",
+    "longDescription": "I became the nanny to my childhood crush, Ethan Carter, my older brother’s best friend. He’s gorgeous, successful, and completely off-limits. He’s a single dad. And the grumpiest man alive.",
     "reviews": [
       {
-        "quote": "A polished placeholder quote for a future reader or editorial note.",
-        "source": "Reader review placeholder"
-      },
-      {
-        "quote": "Perfect for readers who appreciate thoughtful storytelling and memorable book journeys.",
-        "source": "Editorial note placeholder"
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
       }
     ],
     "purchaseOptions": [
       {
-        "label": "Paperback",
-        "url": "https://www.amazon.com/?tag=yourassociateid-20"
-      },
-      {
-        "label": "Kindle",
-        "url": "https://www.amazon.com/?tag=yourassociateid-20"
+        "label": "Amazon",
+        "url": "https://a.co/d/03NXQzjR"
       }
     ]
   },
   {
-    "id": "reader-favorite-placeholder",
-    "title": "Reader Favorite Placeholder",
-    "subtitle": "A reader-focused catalog placeholder",
-    "description": "A placeholder description for a book that will be featured for Lucy Nell Publishing readers.",
-    "longDescription": "This placeholder supports the redesigned catalog layout until final book metadata and approved cover art are available.",
-    "genre": "Reader Favorite",
-    "releaseDate": "2026-08-20",
-    "cover": "images/book-placeholder-2.svg",
-    "amazonLink": "https://www.amazon.com/?tag=yourassociateid-20",
+    "id": "the-nanny-and-the-grump",
+    "title": "The Nanny and the Grump",
+    "subtitle": "A Slow-Burn Grumpy Boss and Sunshine Nanny Romance (Cooking with Sexy Grumps)",
+    "series": "Cooking with Sexy Grumps",
+    "seriesOrder": 2,
+    "genre": "Contemporary Romance",
+    "amazonLink": "https://a.co/d/0j2PkDVe",
+    "description": "I took the nanny job because I needed a paycheck—not a family.",
+    "content": [
+      "I took the nanny job because I needed a paycheck—not a family.",
+      "Gabe Winters is everything I should stay away from. A brooding, sharp-edged celebrity chef with trust issues, scars he doesn’t talk about, and eyes that see right through me. He’s grumpy, guarded and totally closed off from his emotions.",
+      "What starts as just a temporary job as a nanny to his six-year-old daughter, Isla, becomes late-night tea in a too-quiet kitchen, soft smiles across pancakes, and a closeness I never expected.",
+      "Still, there’s something in the way he reaches for my hand. In the way Isla smiles like I’ve always belonged. And I’m falling for him anyway.",
+      "When his ex-wife shows up without warning, I start to wonder if there’s really space for me here—or if I was always meant to be temporary.",
+      "Maybe I didn’t come here to fall in love.",
+      "But now that I have, I’m not walking away without a fight."
+    ],
+    "tags": [
+      "Slow Burn",
+      "Grumpy Sunshine",
+      "Nanny Romance",
+      "Single Dad",
+      "Chef Romance"
+    ],
+    "cover": "images/covers/the-nanny-and-the-grump.jpg",
+    "fallbackCover": "images/book-placeholder-2.svg",
     "affiliateDisclosure": true,
     "featured": true,
-    "tags": ["Readers", "Featured", "Community"],
+    "releaseDate": "",
+    "longDescription": "I took the nanny job because I needed a paycheck—not a family. Gabe Winters is everything I should stay away from. A brooding, sharp-edged celebrity chef with trust issues, scars he doesn’t talk about, and eyes that see right through me. He’s grumpy, guarded and totally closed off from his emotions.",
     "reviews": [
       {
-        "quote": "Warm, thoughtful, and ready to replace with an approved reader quote.",
-        "source": "Reader review placeholder"
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
       }
     ],
     "purchaseOptions": [
       {
-        "label": "Paperback",
-        "url": "https://www.amazon.com/?tag=yourassociateid-20"
-      },
-      {
-        "label": "Kindle",
-        "url": "https://www.amazon.com/?tag=yourassociateid-20"
+        "label": "Amazon",
+        "url": "https://a.co/d/0j2PkDVe"
       }
     ]
   },
   {
-    "id": "upcoming-release-placeholder",
-    "title": "Upcoming Release Placeholder",
-    "subtitle": "A future release catalog placeholder",
-    "description": "A placeholder description for an upcoming Lucy Nell Publishing release or featured project.",
-    "longDescription": "Replace this entry with a verified backlist or upcoming release. The structure is ready for ISBNs, publisher data, and retailer links when available.",
-    "genre": "Upcoming Release",
-    "releaseDate": "2027-02-10",
-    "cover": "images/book-placeholder-3.svg",
-    "amazonLink": "https://www.amazon.com/?tag=yourassociateid-20",
+    "id": "the-grumpy-chefs-nanny",
+    "title": "The Grumpy Chef's Nanny",
+    "subtitle": "A Boss-Nanny Forced Proximity Romance (Cooking with Sexy Grumps)",
+    "series": "Cooking with Sexy Grumps",
+    "seriesOrder": 3,
+    "genre": "Contemporary Romance",
+    "amazonLink": "https://a.co/d/05fMdJe0",
+    "description": "I’m snowed in with a grumpy single dad as his accidental nanny.",
+    "content": [
+      "I’m snowed in with a grumpy single dad as his accidental nanny.",
+      "I was just returning a phone. That’s it.",
+      "No interview. No résumé. No intention of babysitting a stranger’s kid.",
+      "But five minutes in his kitchen and suddenly I’m knee-deep in coloring books, bedtime routines, and a six-year-old who thinks I’m her new best friend.",
+      "Her dad?",
+      "A broody, infuriatingly hot chef with a spatula in one hand and a trust issue in the other.",
+      "Then a snowstorm traps me in their apartment.",
+      "One night turns into two. Then pancakes. Then a museum trip.",
+      "Then a quiet glass of wine on the couch where he looks at me like I belong here.",
+      "But he’s not looking for forever. And I’ve never been good at staying.",
+      "Problem is, he’s starting to look like the kind of risk I’d rewrite my whole life for.",
+      "Then his ex-shows up, smiling, beautiful, and acting like she never left.",
+      "Suddenly I’m the outsider again, and the life I never meant to fall into is on the verge of disappearing.",
+      "I’ll be damned if I’m going to let that happen!"
+    ],
+    "tags": [
+      "Forced Proximity",
+      "Accidental Nanny",
+      "Single Dad",
+      "Chef Romance",
+      "Snowed In"
+    ],
+    "cover": "images/covers/the-grumpy-chefs-nanny.jpg",
+    "fallbackCover": "images/book-placeholder-3.svg",
+    "affiliateDisclosure": true,
+    "featured": true,
+    "releaseDate": "",
+    "longDescription": "I’m snowed in with a grumpy single dad as his accidental nanny. I was just returning a phone. That’s it.",
+    "reviews": [
+      {
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
+      }
+    ],
+    "purchaseOptions": [
+      {
+        "label": "Amazon",
+        "url": "https://a.co/d/05fMdJe0"
+      }
+    ]
+  },
+  {
+    "id": "falling-for-the-grump",
+    "title": "Falling for the Grump",
+    "subtitle": "An Opposites Attract Forced Proximity Romance (Cooking with Sexy Grumps)",
+    "series": "Cooking with Sexy Grumps",
+    "seriesOrder": 4,
+    "genre": "Contemporary Romance",
+    "amazonLink": "https://a.co/d/06fgNzXz",
+    "description": "He’s a single dad in trouble, my brother’s best friend, and a real grumpy jerk!",
+    "content": [
+      "This book was previously published as Falling for the Grump An Opposites Attract Forced Proximity Romance.",
+      "He’s a single dad in trouble, my brother’s best friend, and a real grumpy jerk!",
+      "I only agreed to help out as a favor. Temporary live-in nanny to this guy. Fine. I can handle a brooding, emotionally constipated chef for a few weeks.",
+      "But Baker Jackson isn’t just surly; he’s a walking kitchen disaster of rules, routines, and repressed feelings.",
+      "His six-year-old daughter, Ellie, is a delight.",
+      "Baker? A challenge. A very hot, frustrating, infuriating challenge.",
+      "He definitely doesn’t know what to do with someone like me in his space.",
+      "Then the kitchen starts heating up with stolen glances… Soft accidental touches… Late night meals, flirty banter, a quick spark, and one unforgettable kiss.",
+      "It turns out the real mess isn’t the kid’s craft drawer. It’s our feelings. We’ve become something more than enemies.",
+      "I’m falling hard for him. My brother would be furious if he knew…but I’m not going to let him, nor Baker’s ex-wife, nor my ex-business partner wreck what we are building.",
+      "I’m going to have this guy, regardless."
+    ],
+    "tags": [
+      "Opposites Attract",
+      "Forced Proximity",
+      "Brother’s Best Friend",
+      "Single Dad",
+      "Nanny Romance"
+    ],
+    "cover": "images/covers/falling-for-the-grump.jpg",
+    "fallbackCover": "images/book-placeholder-1.svg",
     "affiliateDisclosure": true,
     "featured": false,
-    "tags": ["Upcoming", "Catalog", "Launch"],
+    "releaseDate": "",
+    "longDescription": "This book was previously published as Falling for the Grump An Opposites Attract Forced Proximity Romance. He’s a single dad in trouble, my brother’s best friend, and a real grumpy jerk!",
     "reviews": [
       {
-        "quote": "A flexible placeholder quote for launch notes, press mentions, or reader praise.",
-        "source": "Editorial note placeholder"
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
       }
     ],
     "purchaseOptions": [
       {
-        "label": "Paperback",
-        "url": "https://www.amazon.com/?tag=yourassociateid-20"
-      },
+        "label": "Amazon",
+        "url": "https://a.co/d/06fgNzXz"
+      }
+    ]
+  },
+  {
+    "id": "love-awaits-at-channel-3",
+    "title": "Love Awaits at Channel 3",
+    "subtitle": "A Clean and Wholesome Romantic Suspense",
+    "series": "Love Awaits",
+    "seriesOrder": 1,
+    "genre": "Clean Romantic Suspense",
+    "amazonLink": "https://a.co/d/0fRwZxVa",
+    "description": "One shot at redemption or my career was literally going up in flames-again-not a good advertisement for any chef.",
+    "content": [
+      "One shot at redemption or my career was literally going up in flames-again-not a good advertisement for any chef.",
+      "After a devastating kitchen fire destroyed my reputation three years ago, filming the promo test for a prime-time cooking show is my chance at proving I’m more than the headlines.",
+      "Then ingredients vanish, equipment fails, and a falling pan nearly hits me on camera. Someone wants me gone—permanently.",
+      "Elise Maddox, the assistant of production, knows the difference between accidents and sabotage.",
+      "She discovers I’m being destroyed on purpose.",
+      "And we discover each other.",
+      "We fight back, together.",
+      "Armed with access logs and security footage, we document a conspiracy.",
+      "It reaches far deeper than either of us imagined.",
+      "The danger escalates and someone knows the fastest way to break me now is through the woman standing beside me.",
+      "A gripping romantic suspense where the heat in the kitchen is nothing compared to the danger lurking behind the scenes."
+    ],
+    "tags": [
+      "Clean Romance",
+      "Romantic Suspense",
+      "Chef",
+      "Sabotage",
+      "Wholesome"
+    ],
+    "cover": "images/covers/love-awaits-at-channel-3.jpg",
+    "fallbackCover": "images/book-placeholder-2.svg",
+    "affiliateDisclosure": true,
+    "featured": false,
+    "releaseDate": "",
+    "longDescription": "One shot at redemption or my career was literally going up in flames-again-not a good advertisement for any chef. After a devastating kitchen fire destroyed my reputation three years ago, filming the promo test for a prime-time cooking show is my chance at proving I’m more than the headlines.",
+    "reviews": [
       {
-        "label": "Kindle",
-        "url": "https://www.amazon.com/?tag=yourassociateid-20"
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
+      }
+    ],
+    "purchaseOptions": [
+      {
+        "label": "Amazon",
+        "url": "https://a.co/d/0fRwZxVa"
+      }
+    ]
+  },
+  {
+    "id": "love-awaits-at-the-hollow",
+    "title": "Love Awaits at The Hollow",
+    "subtitle": "A Sweet Small Town Second Chance Romance",
+    "series": "Love Awaits",
+    "seriesOrder": 2,
+    "genre": "Sweet Small Town Romance",
+    "amazonLink": "https://a.co/d/05DagUDd",
+    "description": "I came home to figure out my future. I didn’t expect my high school sweetheart, Max Turner, to be waiting behind the counter.",
+    "content": [
+      "I came home to figure out my future. I didn’t expect my high school sweetheart, Max Turner, to be waiting behind the counter.",
+      "One minute I was planning rooftop galas in Manhattan. The next, my job was gone, my apartment was packed into storage, and I was on a train heading back to the small coastal town I promised I’d never call home again.",
+      "I told myself it was temporary. A reset. A way to help my brother with his failing restaurant while I found something new.",
+      "Max, my brother’s grumpy and brilliant best friend and business partner, and my deceased best friend’s husband, is still raising his son upstairs, still making my pulse skip for all the wrong reasons.",
+      "Now I’m sleeping just one floor above him, trying to ignore the tension, the history, the heat that’s still very much alive.",
+      "If we don’t save this restaurant, we all lose.",
+      "I’m willing to fight to save it. And us!"
+    ],
+    "tags": [
+      "Second Chance",
+      "Small Town",
+      "Sweet Romance",
+      "Restaurant",
+      "Forced Proximity"
+    ],
+    "cover": "images/covers/love-awaits-at-the-hollow.jpg",
+    "fallbackCover": "images/book-placeholder-3.svg",
+    "affiliateDisclosure": true,
+    "featured": false,
+    "releaseDate": "",
+    "longDescription": "I came home to figure out my future. I didn’t expect my high school sweetheart, Max Turner, to be waiting behind the counter. One minute I was planning rooftop galas in Manhattan. The next, my job was gone, my apartment was packed into storage, and I was on a train heading back to the small coastal town I promised I’d never call home again.",
+    "reviews": [
+      {
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
+      }
+    ],
+    "purchaseOptions": [
+      {
+        "label": "Amazon",
+        "url": "https://a.co/d/05DagUDd"
+      }
+    ]
+  },
+  {
+    "id": "love-awaits-at-willow-creek",
+    "title": "Love Awaits at Willow Creek",
+    "subtitle": "A Small Town Slow Burning Close Proximity Romance",
+    "series": "Love Awaits",
+    "seriesOrder": 3,
+    "genre": "Small Town Romance",
+    "amazonLink": "https://a.co/d/0gxYBwYI",
+    "description": "His inheritance became our destiny.",
+    "content": [
+      "His Inheritance Became our Destiny",
+      "I had six weeks to convince Luke Meyers not to sell his uncle's crumbling inn. He had six weeks to escape Willow Creek and return to his real life in the city.",
+      "Neither of us planned to fall in love.",
+      "But Uncle Henry left more than property. He left secrets carved into foundation stones and hidden in floorboards. Letters revealing an impossible connection between our families that started twenty-five years before we met. He believed it meant something. Spent his final years orchestrating our meeting, hoping we'd choose what he couldn't, love over obligation.",
+      "As we restored the Inn room by room, we restored each other. Found home in sawdust and second chances. Built a partnership that became everything.",
+      "Then a ruthless developer threatened to steal it all.",
+      "Now I'm fighting for the Inn, for Luke, for the town that raised me, and for a love story that was decades in the making.",
+      "The real question is: am I brave enough to believe it was always meant to be?"
+    ],
+    "tags": [
+      "Small Town",
+      "Slow Burn",
+      "Forced Proximity",
+      "Inheritance",
+      "Inn Restoration"
+    ],
+    "cover": "images/covers/love-awaits-at-willow-creek.jpg",
+    "fallbackCover": "images/book-placeholder-1.svg",
+    "affiliateDisclosure": true,
+    "featured": false,
+    "releaseDate": "",
+    "longDescription": "His Inheritance Became our Destiny I had six weeks to convince Luke Meyers not to sell his uncle's crumbling inn. He had six weeks to escape Willow Creek and return to his real life in the city.",
+    "reviews": [
+      {
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
+      }
+    ],
+    "purchaseOptions": [
+      {
+        "label": "Amazon",
+        "url": "https://a.co/d/0gxYBwYI"
+      }
+    ]
+  },
+  {
+    "id": "love-awaits-at-maple-springs",
+    "title": "Love Awaits at Maple Springs",
+    "subtitle": "A Small Town Clean and Wholesome Romance",
+    "series": "Love Awaits",
+    "seriesOrder": 4,
+    "genre": "Clean Small Town Romance",
+    "amazonLink": "https://a.co/d/03bkHayn",
+    "description": "I always thought Maple Springs was the one place that didn’t need saving—until Noah Bennett walked into town with city shoes, big ideas, and no clue what he’s doing!",
+    "content": [
+      "I always thought Maple Springs was the one place that didn’t need saving—until Noah Bennett walked into town with city shoes, big ideas, and no clue what he’s doing!",
+      "His aunt’s café was the heartbeat of our community, and now it’s in the hands of a man who thinks espressos and digital menus can fix everything. The town isn’t impressed.",
+      "Honestly, neither am I. I have my hands full running my nursery and supplying the town’s restaurants with fresh produce.",
+      "But Noah asks for my help. And against my better judgment—and thanks to two meddling Boykin Spaniels—I say yes.",
+      "Teaching him our small town’s traditions and the part the café plays should’ve been simple.",
+      "Instead… I find myself seeing the man behind the chaos: earnest, driven, unexpectedly kind.",
+      "And I find myself falling for him.",
+      "But Maple Springs is changing. The café’s future is uncertain. And so is Noah’s place in it.",
+      "Will Maple Springs lose the cafe and I lose him?",
+      "Love Awaits at Maple Springs is a clean wholesome romance about finding home, building community, and discovering that sometimes the life you didn't plan is exactly the one you need."
+    ],
+    "tags": [
+      "Clean Romance",
+      "Small Town",
+      "Wholesome",
+      "Community",
+      "Cafe"
+    ],
+    "cover": "images/covers/love-awaits-at-maple-springs.jpg",
+    "fallbackCover": "images/book-placeholder-2.svg",
+    "affiliateDisclosure": true,
+    "featured": false,
+    "releaseDate": "",
+    "longDescription": "I always thought Maple Springs was the one place that didn’t need saving—until Noah Bennett walked into town with city shoes, big ideas, and no clue what he’s doing! His aunt’s café was the heartbeat of our community, and now it’s in the hands of a man who thinks espressos and digital menus can fix everything. The town isn’t impressed.",
+    "reviews": [
+      {
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
+      }
+    ],
+    "purchaseOptions": [
+      {
+        "label": "Amazon",
+        "url": "https://a.co/d/03bkHayn"
+      }
+    ]
+  },
+  {
+    "id": "love-blooms-at-hope-ranch",
+    "title": "Love Blooms at Hope Ranch",
+    "subtitle": "A Small-Town Opposites Attract Clean and Wholesome Romance (Hope Ranch Romance, Twin Arrows, Montana)",
+    "series": "Hope Ranch Romance",
+    "seriesOrder": 1,
+    "genre": "Clean Small Town Romance",
+    "amazonLink": "https://a.co/d/0fFwkh5z",
+    "description": "I came to Twin Arrows, Montana with a truck full of flower plugs, a notebook nearly full of questions, and the stubborn belief that I could build something real from six acres of fallow ground.",
+    "content": [
+      "I came to Twin Arrows, Montana with a truck full of flower plugs, a notebook nearly full of questions, and the stubborn belief that I could build something real from six acres of fallow ground.",
+      "What I did not plan for was Luke Carter.",
+      "He is the kind of man who moves a herd three days early without being asked, fixes equipment that isn't his problem, and tells you hard truths about land and life in the same quiet voice. He has been careful about things for a long time, and he has his reasons, and I understand them better than he knows.",
+      "The farm is teaching me that the best things grow in the hardest ground. That patience is not waiting -- it is being fully present in the work of the growing season. And that some things know where they are supposed to be before you do.",
+      "I came to Twin Arrows to grow flowers.",
+      "I did not expect to grow a life."
+    ],
+    "tags": [
+      "Hope Ranch",
+      "Twin Arrows",
+      "Clean Romance",
+      "Opposites Attract",
+      "Montana"
+    ],
+    "cover": "images/covers/love-blooms-at-hope-ranch.jpg",
+    "fallbackCover": "images/book-placeholder-3.svg",
+    "affiliateDisclosure": true,
+    "featured": false,
+    "releaseDate": "",
+    "longDescription": "I came to Twin Arrows, Montana with a truck full of flower plugs, a notebook nearly full of questions, and the stubborn belief that I could build something real from six acres of fallow ground. What I did not plan for was Luke Carter.",
+    "reviews": [
+      {
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
+      }
+    ],
+    "purchaseOptions": [
+      {
+        "label": "Amazon",
+        "url": "https://a.co/d/0fFwkh5z"
+      }
+    ]
+  },
+  {
+    "id": "love-grows-at-hope-ranch",
+    "title": "Love Grows at Hope Ranch",
+    "subtitle": "A Small-Town Slow Burn Fresh Start Romance (Hope Ranch Romance, Twin Arrows, Montana)",
+    "series": "Hope Ranch Romance",
+    "seriesOrder": 2,
+    "genre": "Small Town Romance",
+    "amazonLink": "https://a.co/d/00x5PZSQ",
+    "description": "I came to Twin Arrows, Montana to start over. Falling for a stubborn rancher was never part of the plan.",
+    "content": [
+      "I came to Twin Arrows, Montana to start over. Falling for a stubborn rancher was never part of the plan.",
+      "After a painful divorce, a fresh start in a quiet ranching town sounds exactly like what I need. I have a new job running Twin Arrows Veterinary Clinic, a loyal Boykin Spaniel named Cara at my side, and every intention of keeping my life simple.",
+      "The only complication is Adam Carter.",
+      "Tall, broad-shouldered, and permanently skeptical of my modern veterinary ideas, Adam owns Hope Ranch and the clinic where I work. Every conversation becomes a quiet battle of wills.",
+      "His sweet six-year-old daughter Lily steals my heart in minutes. And Adam himself begins to reveal a quieter, kinder side that makes it impossible for me to keep my distance.",
+      "Slowly, Twin Arrows starts to feel like home.",
+      "Then my past arrives in town, threatening everything I have rebuilt. Including the fragile trust growing between Adam and me.",
+      "I don't know what's scarier---that Twin Arrows is starting to feel like home or that Adam is!"
+    ],
+    "tags": [
+      "Hope Ranch",
+      "Twin Arrows",
+      "Fresh Start",
+      "Slow Burn",
+      "Veterinarian"
+    ],
+    "cover": "images/covers/love-grows-at-hope-ranch.jpg",
+    "fallbackCover": "images/book-placeholder-1.svg",
+    "affiliateDisclosure": true,
+    "featured": false,
+    "releaseDate": "",
+    "longDescription": "I came to Twin Arrows, Montana to start over. Falling for a stubborn rancher was never part of the plan. After a painful divorce, a fresh start in a quiet ranching town sounds exactly like what I need. I have a new job running Twin Arrows Veterinary Clinic, a loyal Boykin Spaniel named Cara at my side, and every intention of keeping my life simple.",
+    "reviews": [
+      {
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
+      }
+    ],
+    "purchaseOptions": [
+      {
+        "label": "Amazon",
+        "url": "https://a.co/d/00x5PZSQ"
+      }
+    ]
+  },
+  {
+    "id": "rodeo-rivals",
+    "title": "Rodeo Rivals",
+    "subtitle": "A Hope Ranch Romance (Hope Ranch Romance, Twin Arrows, Montana)",
+    "series": "Hope Ranch Romance",
+    "seriesOrder": 3,
+    "genre": "Western Romance",
+    "amazonLink": "https://a.co/d/07td5nbU",
+    "description": "I came to the Oklahoma County Fair with two goals: find a second horse, and prove myself on the western circuit.",
+    "content": [
+      "I came to the Oklahoma County Fair with two goals: find a second horse, and prove myself on the western circuit.",
+      "I found the horse the moment I laid eyes on her. A deep sorrel mare with fire in her eyes and more heart than I'd ever seen in an animal. She was everything I'd been looking for.",
+      "The problem was Carson Armstrong had seen the same thing.",
+      "He's an all-around rodeo champion with a finance degree, a Montana ranch in his blood, and the most infuriating habit of being right about horses.",
+      "We sparred over that mare from the first handshake, and somewhere between the dusty practice arenas and a late-night diner booth, the lines between rivalry and something far more dangerous started to blur.",
+      "He's good at everything. Reading horses. Reading people. Reading me.",
+      "I came here to win. I didn't come here to fall.",
+      "But the heart, like a good horse, goes where it decides to go.",
+      "Rodeo Rivals A Hope Ranch Romance is the third book in the Hope Ranch series, set in Twin Arrows, Montana."
+    ],
+    "tags": [
+      "Hope Ranch",
+      "Rodeo",
+      "Western Romance",
+      "Rivals",
+      "Montana"
+    ],
+    "cover": "images/covers/rodeo-rivals.jpg",
+    "fallbackCover": "images/book-placeholder-2.svg",
+    "affiliateDisclosure": true,
+    "featured": false,
+    "releaseDate": "",
+    "longDescription": "I came to the Oklahoma County Fair with two goals: find a second horse, and prove myself on the western circuit. I found the horse the moment I laid eyes on her. A deep sorrel mare with fire in her eyes and more heart than I'd ever seen in an animal. She was everything I'd been looking for.",
+    "reviews": [
+      {
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
+      }
+    ],
+    "purchaseOptions": [
+      {
+        "label": "Amazon",
+        "url": "https://a.co/d/07td5nbU"
+      }
+    ]
+  },
+  {
+    "id": "the-handymans-list",
+    "title": "The Handyman's List",
+    "subtitle": "A Mystic Falls Cozy Mystery (A Mystic Falls Mystery Book 1)",
+    "series": "Mystic Falls Mystery",
+    "seriesOrder": 1,
+    "genre": "Cozy Mystery",
+    "amazonLink": "https://a.co/d/0hlKpWr5",
+    "description": "I came to the North Carolina mountains for a reset. Quiet town. Clean slate. Walk the dog. Read a book. Be no one for a few days.",
+    "content": [
+      "I came to the North Carolina mountains for a reset. Quiet town. Clean slate. Walk the dog. Read a book. Be no one for a few days.",
+      "Instead, my dog found a body.",
+      "Abby, my Boykin Spaniel, is search-and-rescue trained, and when she locks onto something, I trust it. What I didn't expect was for that one discovery to pull me into an investigation with Sheriff Deen Lee, and into the quiet, careful work a local handyman had been doing in pencil, in a notebook, under a stack of dish towels. The work he didn't get to finish.",
+      "The sheriff is short-handed. The innkeeper has been writing things down for thirty years. The daughter is coming home for the first time in fifteen.",
+      "Now I'm in it, with a sheriff who doesn't miss much and a dog who misses nothing, and a town that has been keeping a quiet secret a great deal longer than anyone realized.",
+      "I came here for a vacation.",
+      "I am beginning to suspect I came here for something else.",
+      "The Handyman’s List is a prequel novella to the Mystic Falls Mysteries series. It can be read as a standalone or as an introduction to the quiet town and characters of Mystic Falls, North Carolina.",
+      "The first Mystic Falls Mystery."
+    ],
+    "tags": [
+      "Mystic Falls",
+      "Cozy Mystery",
+      "Boykin Spaniel",
+      "North Carolina Mountains",
+      "Prequel Novella"
+    ],
+    "cover": "images/covers/the-handymans-list.jpg",
+    "fallbackCover": "images/book-placeholder-3.svg",
+    "affiliateDisclosure": true,
+    "featured": false,
+    "releaseDate": "",
+    "longDescription": "I came to the North Carolina mountains for a reset. Quiet town. Clean slate. Walk the dog. Read a book. Be no one for a few days. Instead, my dog found a body.",
+    "reviews": [
+      {
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
+      }
+    ],
+    "purchaseOptions": [
+      {
+        "label": "Amazon",
+        "url": "https://a.co/d/0hlKpWr5"
       }
     ]
   }
