@@ -286,6 +286,8 @@ p {
 
 .hero-stat-card {
   align-self: center;
+  justify-self: center;
+  width: min(100%, 460px);
   padding: 14px;
   border: 1px solid rgba(154, 90, 63, 0.12);
   border-radius: var(--radius-md);
@@ -294,6 +296,7 @@ p {
 }
 
 .hero-stat-card .stat-strip {
+  grid-template-columns: repeat(3, minmax(120px, 1fr));
   margin-top: 0;
 }
 
