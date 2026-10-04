@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Lucy Nell Publishing Blog | Publishing Notes, Reading Lists & Updates</title>
-    <meta name="description" content="Read Lucy Nell Publishing's blog for publishing notes, reading lists, book club ideas, and behind-the-scenes updates.">
-    <meta property="og:title" content="Lucy Nell Publishing Blog">
-    <meta property="og:description" content="Publishing notes, reader resources, book recommendations, and updates from Lucy Nell Publishing.">
+    <title>About The Author | Lucy Nell Publishing</title>
+    <meta name="description" content="Learn about Mia Hope, contemporary romance author of believable characters, vulnerable heroes, strong heroines, and heartfelt stories.">
+    <meta property="og:title" content="About The Author | Lucy Nell Publishing">
+    <meta property="og:description" content="Meet Mia Hope, contemporary romance author and the writer behind relatable stories with heart.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.lucynellpublishing.com/blog.html">
-    <meta property="og:image" content="https://www.lucynellpublishing.com/images/recommendation-placeholder-1.svg">
-    <link rel="canonical" href="https://www.lucynellpublishing.com/blog.html">
+    <meta property="og:url" content="https://www.lucynellpublishing.com/about.html">
+    <meta property="og:image" content="https://www.lucynellpublishing.com/images/homePageIllustration.jpg">
+    <link rel="canonical" href="https://www.lucynellpublishing.com/about.html">
     <link rel="stylesheet" href="css/style.css?v=20261004-book-covers">
   </head>
   <body>
@@ -36,30 +36,24 @@
     <main id="main">
       <section class="page-hero">
         <div class="container">
-          <p class="eyebrow">Lucy Nell Publishing blog</p>
-          <h1>Publishing notes, reading lists, and reader updates.</h1>
-          <p class="lead">A JSON-powered content hub designed to give readers original value beyond affiliate links.</p>
+          <p class="eyebrow">About the author</p>
+          <h1>About The Author</h1>
+          <p class="lead">Meet Mia Hope, contemporary romance author.</p>
         </div>
       </section>
 
       <section class="section">
-        <div class="container">
-          <div data-blog-article aria-live="polite"></div>
-          <div data-blog-index>
-            <div class="controls" aria-label="Blog search and filtering controls">
-              <label class="field">
-                <span>Search articles</span>
-              <input type="search" data-blog-search placeholder="Search publishing, books, reading lists..." autocomplete="off">
-              </label>
-              <label class="field">
-                <span>Filter by category</span>
-                <select data-blog-filter>
-                  <option value="all">All categories</option>
-                </select>
-              </label>
-            </div>
-            <div class="card-grid blog-grid" data-blog-list aria-live="polite"></div>
+        <div class="container split-grid">
+          <div class="card about-author-card fade-in">
+            <h2>Mia Hope</h2>
+            <p>Mia Hope writes contemporary romance novels that depict believable, relatable people with real-life struggles. Her alpha males are damaged, yet vulnerable. Her heroines are sassy, independent, and strong.</p>
+            <p>Born and raised in the south, Mia is the eldest of five children. She is a Pickleball addict and gourmet cook. She loves all sports, all animals, most music, reading, camping, and cruising. Mia lives on the Carolina coast with her rescued family members: Boykin Spaniel, Miles, and Spidey the cat.</p>
           </div>
+          <aside class="card fade-in">
+            <h2>Author notes</h2>
+            <p>This page is ready for a professional author photo, press mentions, reader testimonials, and final book-series context as content is added.</p>
+            <a class="button button-secondary" href="books.html">Explore the catalog</a>
+          </aside>
         </div>
       </section>
     </main>
@@ -82,6 +76,17 @@
     <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
     <script src="js/affiliate.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/blog.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Mia Hope",
+        "description": "Mia Hope writes contemporary romance novels that depict believable, relatable people with real-life struggles.",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Lucy Nell Publishing"
+        }
+      }
+    </script>
   </body>
 </html>

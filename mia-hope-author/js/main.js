@@ -145,23 +145,23 @@
   }
 
   function addBaseSchema() {
-    injectJsonLd("schema-author", {
+    injectJsonLd("schema-organization", {
       "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Mia Hope",
-      "url": "https://www.miahopeauthor.com/",
-      "description": "Mia Hope writes contemporary romance novels with relatable characters, vulnerable heroes, and strong heroines.",
+      "@type": "Organization",
+      "name": "Lucy Nell Publishing",
+      "url": "https://www.lucynellpublishing.com/",
+      "description": "Lucy Nell Publishing is an independent publishing brand for books, reader resources, and thoughtful recommendations.",
       "sameAs": []
     });
 
     injectJsonLd("schema-website", {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "name": "Mia Hope Author",
-      "url": "https://www.miahopeauthor.com/",
+      "name": "Lucy Nell Publishing",
+      "url": "https://www.lucynellpublishing.com/",
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://www.miahopeauthor.com/blog.html?search={search_term_string}",
+        "target": "https://www.lucynellpublishing.com/blog.html?search={search_term_string}",
         "query-input": "required name=search_term_string"
       }
     });

@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="420" height="560" viewBox="0 0 420 560" role="img" aria-labelledby="title desc">
   <title id="title">Writing inspiration recommendation placeholder</title>
-  <desc id="desc">A simple lavender book recommendation placeholder.</desc>
+  <desc id="desc">A simple warm neutral book recommendation placeholder.</desc>
   <rect width="420" height="560" rx="28" fill="#f7efff"/>
-  <rect x="54" y="70" width="312" height="420" rx="22" fill="#ffffff" stroke="#c8a2c8" stroke-width="6"/>
+  <rect x="54" y="70" width="312" height="420" rx="22" fill="#ffffff" stroke="#c8845d" stroke-width="6"/>
   <text x="210" y="230" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#333333">Writing</text>
   <text x="210" y="276" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#333333">Inspiration</text>
-  <path d="M143 365h134" stroke="#8e6aae" stroke-width="14" stroke-linecap="round"/>
+  <path d="M143 365h134" stroke="#9a5a3f" stroke-width="14" stroke-linecap="round"/>
 </svg>

@@ -8,7 +8,7 @@
         <div class="recommendation-body">
           <span class="pill">${window.Affiliate.escapeHtml(item.category)}</span>
           <h3>${window.Affiliate.escapeHtml(item.title)}</h3>
-          <p><strong>Why Mia recommends it:</strong> ${window.Affiliate.escapeHtml(item.whyRecommended)}</p>
+          <p><strong>Why Lucy Nell Publishing recommends it:</strong> ${window.Affiliate.escapeHtml(item.whyRecommended)}</p>
           <p><strong>Who would enjoy it:</strong> ${window.Affiliate.escapeHtml(item.whoWouldEnjoy)}</p>
           ${window.Affiliate.createAffiliateButton(item.amazonLink, "View on Amazon")}
         </div>
