@@ -49,9 +49,6 @@
 
     return `
       <article class="book-card fade-in" data-genre="${window.Affiliate.escapeHtml(book.genre)}" data-title="${window.Affiliate.escapeHtml(book.title)}">
-        <a href="${detailLink}" aria-label="View details for ${window.Affiliate.escapeHtml(book.title)}">
-          <img class="book-cover" src="${window.Affiliate.escapeHtml(coverSrc)}" alt="Cover for ${window.Affiliate.escapeHtml(book.title)}" loading="lazy" width="480" height="720" onerror="this.onerror=null; this.src='${window.Affiliate.escapeHtml(coverFallback)}';">
-        </a>
         <div class="book-body">
           <ul class="meta-list" aria-label="Book details">
             <li class="pill">${window.Affiliate.escapeHtml(book.genre)}</li>
@@ -59,6 +56,9 @@
             ${releaseDatePill(book)}
           </ul>
           <h3><a href="${detailLink}">${window.Affiliate.escapeHtml(book.title)}</a></h3>
+          <a class="book-card-cover-link" href="${detailLink}" aria-label="View details for ${window.Affiliate.escapeHtml(book.title)}">
+            <img class="book-cover" src="${window.Affiliate.escapeHtml(coverSrc)}" alt="Cover for ${window.Affiliate.escapeHtml(book.title)}" loading="lazy" width="480" height="720" onerror="this.onerror=null; this.src='${window.Affiliate.escapeHtml(coverFallback)}';">
+          </a>
           <p>${window.Affiliate.escapeHtml(book.description)}</p>
           <ul class="tag-list" aria-label="Book themes">
             ${book.tags.map((tag) => `<li>${window.Affiliate.escapeHtml(tag)}</li>`).join("")}

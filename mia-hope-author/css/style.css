@@ -473,14 +473,6 @@ button.button:hover {
   flex-direction: column;
 }
 
-.book-card > a {
-  order: 2;
-}
-
-.book-card .book-body {
-  order: 1;
-}
-
 .book-cover,
 .recommendation-cover {
   width: 100%;
@@ -490,8 +482,14 @@ button.button:hover {
 }
 
 .book-card .book-cover {
-  height: clamp(180px, 22vw, 240px);
+  height: clamp(260px, 32vw, 380px);
   aspect-ratio: auto;
+}
+
+.book-card-cover-link {
+  display: block;
+  margin: 4px -22px 18px;
+  background: var(--color-secondary);
 }
 
 .book-body,
