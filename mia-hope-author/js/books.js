@@ -31,6 +31,16 @@
     return releaseDate ? `<li class="pill">${releaseDate}</li>` : "";
   }
 
+  function orderPill(book) {
+    return book.seriesOrderLabel ? `<li class="pill">${window.Affiliate.escapeHtml(book.seriesOrderLabel)}</li>` : "";
+  }
+
+  function purchaseButton(book, buttonText) {
+    return book.amazonLink
+      ? window.Affiliate.createAffiliateButton(book.amazonLink, buttonText)
+      : '<p class="form-note stack-top">Amazon link pending for this title.</p>';
+  }
+
   function bookCard(book, options = {}) {
     const buttonText = options.buttonText || "Buy on Amazon";
     const detailLink = getBookDetailLink(book);
@@ -45,6 +55,7 @@
         <div class="book-body">
           <ul class="meta-list" aria-label="Book details">
             <li class="pill">${window.Affiliate.escapeHtml(book.genre)}</li>
+            ${orderPill(book)}
             ${releaseDatePill(book)}
           </ul>
           <h3><a href="${detailLink}">${window.Affiliate.escapeHtml(book.title)}</a></h3>
@@ -53,10 +64,36 @@
             ${book.tags.map((tag) => `<li>${window.Affiliate.escapeHtml(tag)}</li>`).join("")}
           </ul>
           <a class="book-detail-link" href="${detailLink}">Read book details</a>
-          ${window.Affiliate.createAffiliateButton(book.amazonLink, buttonText)}
+          ${purchaseButton(book, buttonText)}
         </div>
       </article>
     `;
+  }
+
+  function groupBooksBySeries(books) {
+    return books.reduce((groups, book) => {
+      let group = groups.find((item) => item.series === book.series);
+      if (!group) {
+        group = { series: book.series, books: [] };
+        groups.push(group);
+      }
+      group.books.push(book);
+      return groups;
+    }, []);
+  }
+
+  function renderBookGroups(books) {
+    return groupBooksBySeries(books).map((group) => `
+      <section class="book-series-group fade-in">
+        <div class="book-series-heading">
+          <h3>${window.Affiliate.escapeHtml(group.series)}</h3>
+          <p>${group.books.length} ${group.books.length === 1 ? "title" : "titles"} in reading order.</p>
+        </div>
+        <div class="card-grid book-grid">
+          ${group.books.map((book) => bookCard(book)).join("")}
+        </div>
+      </section>
+    `).join("");
   }
 
   function populateGenreFilter(books) {
@@ -94,7 +131,7 @@
       });
 
       target.innerHTML = filtered.length
-        ? filtered.map((book) => bookCard(book)).join("")
+        ? renderBookGroups(filtered)
         : '<p class="empty-state">No books match that search yet. Try a different keyword or genre.</p>';
       window.Site.initRevealAnimations();
     }
@@ -155,6 +192,10 @@
         "description": book.description,
         "genre": book.genre,
         "datePublished": book.releaseDate,
+        "author": {
+          "@type": "Person",
+          "name": book.author
+        },
         "publisher": {
           "@type": "Organization",
           "name": "Lucy Nell Publishing"

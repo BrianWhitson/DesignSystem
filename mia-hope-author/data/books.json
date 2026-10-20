@@ -2,11 +2,13 @@
   {
     "id": "snowed-in-with-a-grump",
     "title": "Snowed in With a Grump",
-    "subtitle": "An Enemies to Lovers Boss Romance (Cooking with Sexy Grumps Book 1)",
-    "series": "Cooking with Sexy Grumps",
+    "subtitle": "An Enemies to Lovers Boss Romance (The Grumpy Chefs Book 1)",
+    "series": "The Grumpy Chefs Series",
     "seriesOrder": 1,
+    "seriesOrderLabel": "Book 1",
     "genre": "Contemporary Romance",
-    "amazonLink": "https://a.co/d/03NXQzjR",
+    "author": "Mia Hope",
+    "amazonLink": "https://www.amazon.com/dp/B0FD9NLWC5",
     "description": "I became the nanny to my childhood crush, Ethan Carter, my older brother’s best friend. He’s gorgeous, successful, and completely off-limits.",
     "content": [
       "I became the nanny to my childhood crush, Ethan Carter, my older brother’s best friend. He’s gorgeous, successful, and completely off-limits.",
@@ -39,18 +41,20 @@
     "purchaseOptions": [
       {
         "label": "Amazon",
-        "url": "https://a.co/d/03NXQzjR"
+        "url": "https://www.amazon.com/dp/B0FD9NLWC5"
       }
     ]
   },
   {
     "id": "the-nanny-and-the-grump",
     "title": "The Nanny and the Grump",
-    "subtitle": "A Slow-Burn Grumpy Boss and Sunshine Nanny Romance (Cooking with Sexy Grumps)",
-    "series": "Cooking with Sexy Grumps",
+    "subtitle": "A Slow-Burn Grumpy Boss and Sunshine Nanny Romance (The Grumpy Chefs Book 2)",
+    "series": "The Grumpy Chefs Series",
     "seriesOrder": 2,
+    "seriesOrderLabel": "Book 2",
     "genre": "Contemporary Romance",
-    "amazonLink": "https://a.co/d/0j2PkDVe",
+    "author": "Mia Hope",
+    "amazonLink": "https://www.amazon.com/ebook/dp/B0FDLV163D",
     "description": "I took the nanny job because I needed a paycheck—not a family.",
     "content": [
       "I took the nanny job because I needed a paycheck—not a family.",
@@ -83,18 +87,20 @@
     "purchaseOptions": [
       {
         "label": "Amazon",
-        "url": "https://a.co/d/0j2PkDVe"
+        "url": "https://www.amazon.com/ebook/dp/B0FDLV163D"
       }
     ]
   },
   {
     "id": "the-grumpy-chefs-nanny",
     "title": "The Grumpy Chef's Nanny",
-    "subtitle": "A Boss-Nanny Forced Proximity Romance (Cooking with Sexy Grumps)",
-    "series": "Cooking with Sexy Grumps",
+    "subtitle": "A Boss-Nanny Forced Proximity Romance (The Grumpy Chefs Book 3)",
+    "series": "The Grumpy Chefs Series",
     "seriesOrder": 3,
+    "seriesOrderLabel": "Book 3",
     "genre": "Contemporary Romance",
-    "amazonLink": "https://a.co/d/05fMdJe0",
+    "author": "Mia Hope",
+    "amazonLink": "https://www.amazon.com/dp/B0FJMJDZDS",
     "description": "I’m snowed in with a grumpy single dad as his accidental nanny.",
     "content": [
       "I’m snowed in with a grumpy single dad as his accidental nanny.",
@@ -122,7 +128,7 @@
     "cover": "images/books/the-grumpy-chefs-nanny.jpg",
     "fallbackCover": "images/book-placeholder-3.svg",
     "affiliateDisclosure": true,
-    "featured": true,
+    "featured": false,
     "releaseDate": "",
     "longDescription": "I’m snowed in with a grumpy single dad as his accidental nanny. I was just returning a phone. That’s it.",
     "reviews": [
@@ -134,18 +140,20 @@
     "purchaseOptions": [
       {
         "label": "Amazon",
-        "url": "https://a.co/d/05fMdJe0"
+        "url": "https://www.amazon.com/dp/B0FJMJDZDS"
       }
     ]
   },
   {
     "id": "falling-for-the-grump",
     "title": "Falling for the Grump",
-    "subtitle": "An Opposites Attract Forced Proximity Romance (Cooking with Sexy Grumps)",
-    "series": "Cooking with Sexy Grumps",
+    "subtitle": "An Opposites Attract Forced Proximity Romance (The Grumpy Chefs Book 4)",
+    "series": "The Grumpy Chefs Series",
     "seriesOrder": 4,
+    "seriesOrderLabel": "Book 4",
     "genre": "Contemporary Romance",
-    "amazonLink": "https://a.co/d/06fgNzXz",
+    "author": "Mia Hope",
+    "amazonLink": "https://www.amazon.com/dp/B0FPXCM2JV",
     "description": "He’s a single dad in trouble, my brother’s best friend, and a real grumpy jerk!",
     "content": [
       "This book was previously published as Falling for the Grump An Opposites Attract Forced Proximity Romance.",
@@ -182,18 +190,151 @@
     "purchaseOptions": [
       {
         "label": "Amazon",
-        "url": "https://a.co/d/06fgNzXz"
+        "url": "https://www.amazon.com/dp/B0FPXCM2JV"
+      }
+    ]
+  },
+  {
+    "id": "love-is-waiting",
+    "title": "Love Is Waiting",
+    "subtitle": "A Love Awaits Series Prequel",
+    "series": "Love Awaits Series",
+    "seriesOrder": 0,
+    "seriesOrderLabel": "Prequel",
+    "genre": "Clean and Wholesome Romance",
+    "author": "Mia Hope",
+    "amazonLink": "https://www.amazon.com/dp/B0HL6ZX6NJ",
+    "description": "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework.",
+    "content": [
+      "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework."
+    ],
+    "tags": [
+      "Prequel",
+      "Small Town",
+      "Clean Romance"
+    ],
+    "cover": "images/books/love-is-waiting.jpg",
+    "fallbackCover": "images/book-placeholder-2.svg",
+    "affiliateDisclosure": true,
+    "featured": true,
+    "releaseDate": "",
+    "longDescription": "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework.",
+    "reviews": [
+      {
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
+      }
+    ],
+    "purchaseOptions": [
+      {
+        "label": "Amazon",
+        "url": "https://www.amazon.com/dp/B0HL6ZX6NJ"
+      }
+    ]
+  },
+  {
+    "id": "love-awaits-at-the-hollow",
+    "title": "Love Awaits at The Hollow",
+    "subtitle": "A Sweet Small Town Second Chance Romance (Love Awaits Book 1)",
+    "series": "Love Awaits Series",
+    "seriesOrder": 1,
+    "seriesOrderLabel": "Book 1",
+    "genre": "Clean and Wholesome Romance",
+    "author": "Mia Hope",
+    "amazonLink": "https://www.amazon.com/dp/B0G2Z2W8RB",
+    "description": "I came home to figure out my future. I didn’t expect my high school sweetheart, Max Turner, to be waiting behind the counter.",
+    "content": [
+      "I came home to figure out my future. I didn’t expect my high school sweetheart, Max Turner, to be waiting behind the counter.",
+      "One minute I was planning rooftop galas in Manhattan. The next, my job was gone, my apartment was packed into storage, and I was on a train heading back to the small coastal town I promised I’d never call home again.",
+      "I told myself it was temporary. A reset. A way to help my brother with his failing restaurant while I found something new.",
+      "Max, my brother’s grumpy and brilliant best friend and business partner, and my deceased best friend’s husband, is still raising his son upstairs, still making my pulse skip for all the wrong reasons.",
+      "Now I’m sleeping just one floor above him, trying to ignore the tension, the history, the heat that’s still very much alive.",
+      "If we don’t save this restaurant, we all lose.",
+      "I’m willing to fight to save it. And us!"
+    ],
+    "tags": [
+      "Second Chance",
+      "Small Town",
+      "Sweet Romance",
+      "Restaurant",
+      "Forced Proximity"
+    ],
+    "cover": "images/books/love-awaits-at-the-hollow.jpg",
+    "fallbackCover": "images/book-placeholder-3.svg",
+    "affiliateDisclosure": true,
+    "featured": false,
+    "releaseDate": "",
+    "longDescription": "I came home to figure out my future. I didn’t expect my high school sweetheart, Max Turner, to be waiting behind the counter. One minute I was planning rooftop galas in Manhattan. The next, my job was gone, my apartment was packed into storage, and I was on a train heading back to the small coastal town I promised I’d never call home again.",
+    "reviews": [
+      {
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
+      }
+    ],
+    "purchaseOptions": [
+      {
+        "label": "Amazon",
+        "url": "https://www.amazon.com/dp/B0G2Z2W8RB"
+      }
+    ]
+  },
+  {
+    "id": "love-awaits-at-willow-creek",
+    "title": "Love Awaits at Willow Creek",
+    "subtitle": "A Small Town Slow Burning Close Proximity Romance (Love Awaits Book 2)",
+    "series": "Love Awaits Series",
+    "seriesOrder": 2,
+    "seriesOrderLabel": "Book 2",
+    "genre": "Clean and Wholesome Romance",
+    "author": "Mia Hope",
+    "amazonLink": "https://www.amazon.com/dp/B0GCNYTBCZ",
+    "description": "His inheritance became our destiny.",
+    "content": [
+      "His Inheritance Became our Destiny",
+      "I had six weeks to convince Luke Meyers not to sell his uncle's crumbling inn. He had six weeks to escape Willow Creek and return to his real life in the city.",
+      "Neither of us planned to fall in love.",
+      "But Uncle Henry left more than property. He left secrets carved into foundation stones and hidden in floorboards. Letters revealing an impossible connection between our families that started twenty-five years before we met. He believed it meant something. Spent his final years orchestrating our meeting, hoping we'd choose what he couldn't, love over obligation.",
+      "As we restored the Inn room by room, we restored each other. Found home in sawdust and second chances. Built a partnership that became everything.",
+      "Then a ruthless developer threatened to steal it all.",
+      "Now I'm fighting for the Inn, for Luke, for the town that raised me, and for a love story that was decades in the making.",
+      "The real question is: am I brave enough to believe it was always meant to be?"
+    ],
+    "tags": [
+      "Small Town",
+      "Slow Burn",
+      "Forced Proximity",
+      "Inheritance",
+      "Inn Restoration"
+    ],
+    "cover": "images/books/love-awaits-at-willow-creek.jpg",
+    "fallbackCover": "images/book-placeholder-1.svg",
+    "affiliateDisclosure": true,
+    "featured": false,
+    "releaseDate": "",
+    "longDescription": "His Inheritance Became our Destiny I had six weeks to convince Luke Meyers not to sell his uncle's crumbling inn. He had six weeks to escape Willow Creek and return to his real life in the city.",
+    "reviews": [
+      {
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
+      }
+    ],
+    "purchaseOptions": [
+      {
+        "label": "Amazon",
+        "url": "https://www.amazon.com/dp/B0GCNYTBCZ"
       }
     ]
   },
   {
     "id": "love-awaits-at-channel-3",
     "title": "Love Awaits at Channel 3",
-    "subtitle": "A Clean and Wholesome Romantic Suspense",
-    "series": "Love Awaits",
-    "seriesOrder": 1,
-    "genre": "Clean Romantic Suspense",
-    "amazonLink": "https://a.co/d/0fRwZxVa",
+    "subtitle": "A Clean and Wholesome Romantic Suspense (Love Awaits Book 3)",
+    "series": "Love Awaits Series",
+    "seriesOrder": 3,
+    "seriesOrderLabel": "Book 3",
+    "genre": "Romantic Suspense",
+    "author": "Mia Hope",
+    "amazonLink": "https://www.amazon.com/dp/B0GTC7C951",
     "description": "One shot at redemption or my career was literally going up in flames-again-not a good advertisement for any chef.",
     "content": [
       "One shot at redemption or my career was literally going up in flames-again-not a good advertisement for any chef.",
@@ -230,107 +371,20 @@
     "purchaseOptions": [
       {
         "label": "Amazon",
-        "url": "https://a.co/d/0fRwZxVa"
-      }
-    ]
-  },
-  {
-    "id": "love-awaits-at-the-hollow",
-    "title": "Love Awaits at The Hollow",
-    "subtitle": "A Sweet Small Town Second Chance Romance",
-    "series": "Love Awaits",
-    "seriesOrder": 2,
-    "genre": "Sweet Small Town Romance",
-    "amazonLink": "https://a.co/d/05DagUDd",
-    "description": "I came home to figure out my future. I didn’t expect my high school sweetheart, Max Turner, to be waiting behind the counter.",
-    "content": [
-      "I came home to figure out my future. I didn’t expect my high school sweetheart, Max Turner, to be waiting behind the counter.",
-      "One minute I was planning rooftop galas in Manhattan. The next, my job was gone, my apartment was packed into storage, and I was on a train heading back to the small coastal town I promised I’d never call home again.",
-      "I told myself it was temporary. A reset. A way to help my brother with his failing restaurant while I found something new.",
-      "Max, my brother’s grumpy and brilliant best friend and business partner, and my deceased best friend’s husband, is still raising his son upstairs, still making my pulse skip for all the wrong reasons.",
-      "Now I’m sleeping just one floor above him, trying to ignore the tension, the history, the heat that’s still very much alive.",
-      "If we don’t save this restaurant, we all lose.",
-      "I’m willing to fight to save it. And us!"
-    ],
-    "tags": [
-      "Second Chance",
-      "Small Town",
-      "Sweet Romance",
-      "Restaurant",
-      "Forced Proximity"
-    ],
-    "cover": "images/books/love-awaits-at-the-hollow.jpg",
-    "fallbackCover": "images/book-placeholder-3.svg",
-    "affiliateDisclosure": true,
-    "featured": false,
-    "releaseDate": "",
-    "longDescription": "I came home to figure out my future. I didn’t expect my high school sweetheart, Max Turner, to be waiting behind the counter. One minute I was planning rooftop galas in Manhattan. The next, my job was gone, my apartment was packed into storage, and I was on a train heading back to the small coastal town I promised I’d never call home again.",
-    "reviews": [
-      {
-        "quote": "Reader reviews and editorial notes can be added here once approved.",
-        "source": "Placeholder"
-      }
-    ],
-    "purchaseOptions": [
-      {
-        "label": "Amazon",
-        "url": "https://a.co/d/05DagUDd"
-      }
-    ]
-  },
-  {
-    "id": "love-awaits-at-willow-creek",
-    "title": "Love Awaits at Willow Creek",
-    "subtitle": "A Small Town Slow Burning Close Proximity Romance",
-    "series": "Love Awaits",
-    "seriesOrder": 3,
-    "genre": "Small Town Romance",
-    "amazonLink": "https://a.co/d/0gxYBwYI",
-    "description": "His inheritance became our destiny.",
-    "content": [
-      "His Inheritance Became our Destiny",
-      "I had six weeks to convince Luke Meyers not to sell his uncle's crumbling inn. He had six weeks to escape Willow Creek and return to his real life in the city.",
-      "Neither of us planned to fall in love.",
-      "But Uncle Henry left more than property. He left secrets carved into foundation stones and hidden in floorboards. Letters revealing an impossible connection between our families that started twenty-five years before we met. He believed it meant something. Spent his final years orchestrating our meeting, hoping we'd choose what he couldn't, love over obligation.",
-      "As we restored the Inn room by room, we restored each other. Found home in sawdust and second chances. Built a partnership that became everything.",
-      "Then a ruthless developer threatened to steal it all.",
-      "Now I'm fighting for the Inn, for Luke, for the town that raised me, and for a love story that was decades in the making.",
-      "The real question is: am I brave enough to believe it was always meant to be?"
-    ],
-    "tags": [
-      "Small Town",
-      "Slow Burn",
-      "Forced Proximity",
-      "Inheritance",
-      "Inn Restoration"
-    ],
-    "cover": "images/books/love-awaits-at-willow-creek.jpg",
-    "fallbackCover": "images/book-placeholder-1.svg",
-    "affiliateDisclosure": true,
-    "featured": false,
-    "releaseDate": "",
-    "longDescription": "His Inheritance Became our Destiny I had six weeks to convince Luke Meyers not to sell his uncle's crumbling inn. He had six weeks to escape Willow Creek and return to his real life in the city.",
-    "reviews": [
-      {
-        "quote": "Reader reviews and editorial notes can be added here once approved.",
-        "source": "Placeholder"
-      }
-    ],
-    "purchaseOptions": [
-      {
-        "label": "Amazon",
-        "url": "https://a.co/d/0gxYBwYI"
+        "url": "https://www.amazon.com/dp/B0GTC7C951"
       }
     ]
   },
   {
     "id": "love-awaits-at-maple-springs",
     "title": "Love Awaits at Maple Springs",
-    "subtitle": "A Small Town Clean and Wholesome Romance",
-    "series": "Love Awaits",
+    "subtitle": "A Small Town Clean and Wholesome Romance (Love Awaits Book 4)",
+    "series": "Love Awaits Series",
     "seriesOrder": 4,
-    "genre": "Clean Small Town Romance",
-    "amazonLink": "https://a.co/d/03bkHayn",
+    "seriesOrderLabel": "Book 4",
+    "genre": "Clean and Wholesome Romance",
+    "author": "Mia Hope",
+    "amazonLink": "https://www.amazon.com/dp/B0GQCD61YF",
     "description": "I always thought Maple Springs was the one place that didn’t need saving—until Noah Bennett walked into town with city shoes, big ideas, and no clue what he’s doing!",
     "content": [
       "I always thought Maple Springs was the one place that didn’t need saving—until Noah Bennett walked into town with city shoes, big ideas, and no clue what he’s doing!",
@@ -366,40 +420,35 @@
     "purchaseOptions": [
       {
         "label": "Amazon",
-        "url": "https://a.co/d/03bkHayn"
+        "url": "https://www.amazon.com/dp/B0GQCD61YF"
       }
     ]
   },
   {
-    "id": "love-blooms-at-hope-ranch",
-    "title": "Love Blooms at Hope Ranch",
-    "subtitle": "A Small-Town Opposites Attract Clean and Wholesome Romance (Hope Ranch Romance, Twin Arrows, Montana)",
-    "series": "Hope Ranch Romance",
-    "seriesOrder": 1,
-    "genre": "Clean Small Town Romance",
-    "amazonLink": "https://a.co/d/0fFwkh5z",
-    "description": "I came to Twin Arrows, Montana with a truck full of flower plugs, a notebook nearly full of questions, and the stubborn belief that I could build something real from six acres of fallow ground.",
+    "id": "a-new-beginning-at-hope-ranch",
+    "title": "A New Beginning at Hope Ranch",
+    "subtitle": "A Hope Ranch Series Prequel",
+    "series": "Hope Ranch Series",
+    "seriesOrder": 0,
+    "seriesOrderLabel": "Prequel",
+    "genre": "Clean and Wholesome Romance",
+    "author": "Mia Hope",
+    "amazonLink": "https://www.amazon.com/dp/B0HKTNTSY6",
+    "description": "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework.",
     "content": [
-      "I came to Twin Arrows, Montana with a truck full of flower plugs, a notebook nearly full of questions, and the stubborn belief that I could build something real from six acres of fallow ground.",
-      "What I did not plan for was Luke Carter.",
-      "He is the kind of man who moves a herd three days early without being asked, fixes equipment that isn't his problem, and tells you hard truths about land and life in the same quiet voice. He has been careful about things for a long time, and he has his reasons, and I understand them better than he knows.",
-      "The farm is teaching me that the best things grow in the hardest ground. That patience is not waiting -- it is being fully present in the work of the growing season. And that some things know where they are supposed to be before you do.",
-      "I came to Twin Arrows to grow flowers.",
-      "I did not expect to grow a life."
+      "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework."
     ],
     "tags": [
+      "Prequel",
       "Hope Ranch",
-      "Twin Arrows",
-      "Clean Romance",
-      "Opposites Attract",
       "Montana"
     ],
-    "cover": "images/books/love-blooms-at-hope-ranch.jpg",
-    "fallbackCover": "images/book-placeholder-3.svg",
+    "cover": "images/books/a-new-beginning-at-hope-ranch.jpg",
+    "fallbackCover": "images/book-placeholder-1.svg",
     "affiliateDisclosure": true,
-    "featured": false,
+    "featured": true,
     "releaseDate": "",
-    "longDescription": "I came to Twin Arrows, Montana with a truck full of flower plugs, a notebook nearly full of questions, and the stubborn belief that I could build something real from six acres of fallow ground. What I did not plan for was Luke Carter.",
+    "longDescription": "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework.",
     "reviews": [
       {
         "quote": "Reader reviews and editorial notes can be added here once approved.",
@@ -409,18 +458,20 @@
     "purchaseOptions": [
       {
         "label": "Amazon",
-        "url": "https://a.co/d/0fFwkh5z"
+        "url": "https://www.amazon.com/dp/B0HKTNTSY6"
       }
     ]
   },
   {
     "id": "love-grows-at-hope-ranch",
     "title": "Love Grows at Hope Ranch",
-    "subtitle": "A Small-Town Slow Burn Fresh Start Romance (Hope Ranch Romance, Twin Arrows, Montana)",
-    "series": "Hope Ranch Romance",
-    "seriesOrder": 2,
-    "genre": "Small Town Romance",
-    "amazonLink": "https://a.co/d/00x5PZSQ",
+    "subtitle": "A Small-Town Slow Burn Fresh Start Romance (Hope Ranch Book 1)",
+    "series": "Hope Ranch Series",
+    "seriesOrder": 1,
+    "seriesOrderLabel": "Book 1",
+    "genre": "Clean and Wholesome Romance",
+    "author": "Mia Hope",
+    "amazonLink": "https://www.amazon.com/dp/B0GWRSFJ3H",
     "description": "I came to Twin Arrows, Montana to start over. Falling for a stubborn rancher was never part of the plan.",
     "content": [
       "I came to Twin Arrows, Montana to start over. Falling for a stubborn rancher was never part of the plan.",
@@ -454,18 +505,60 @@
     "purchaseOptions": [
       {
         "label": "Amazon",
-        "url": "https://a.co/d/00x5PZSQ"
+        "url": "https://www.amazon.com/dp/B0GWRSFJ3H"
       }
     ]
   },
   {
+    "id": "love-blooms-at-hope-ranch",
+    "title": "Love Blooms at Hope Ranch",
+    "subtitle": "A Small-Town Opposites Attract Clean and Wholesome Romance (Hope Ranch Book 2)",
+    "series": "Hope Ranch Series",
+    "seriesOrder": 2,
+    "seriesOrderLabel": "Book 2",
+    "genre": "Clean and Wholesome Romance",
+    "author": "Mia Hope",
+    "amazonLink": "",
+    "description": "I came to Twin Arrows, Montana with a truck full of flower plugs, a notebook nearly full of questions, and the stubborn belief that I could build something real from six acres of fallow ground.",
+    "content": [
+      "I came to Twin Arrows, Montana with a truck full of flower plugs, a notebook nearly full of questions, and the stubborn belief that I could build something real from six acres of fallow ground.",
+      "What I did not plan for was Luke Carter.",
+      "He is the kind of man who moves a herd three days early without being asked, fixes equipment that isn't his problem, and tells you hard truths about land and life in the same quiet voice. He has been careful about things for a long time, and he has his reasons, and I understand them better than he knows.",
+      "The farm is teaching me that the best things grow in the hardest ground. That patience is not waiting -- it is being fully present in the work of the growing season. And that some things know where they are supposed to be before you do.",
+      "I came to Twin Arrows to grow flowers.",
+      "I did not expect to grow a life."
+    ],
+    "tags": [
+      "Hope Ranch",
+      "Twin Arrows",
+      "Clean Romance",
+      "Opposites Attract",
+      "Montana"
+    ],
+    "cover": "images/books/love-blooms-at-hope-ranch.jpg",
+    "fallbackCover": "images/book-placeholder-3.svg",
+    "affiliateDisclosure": false,
+    "featured": false,
+    "releaseDate": "",
+    "longDescription": "I came to Twin Arrows, Montana with a truck full of flower plugs, a notebook nearly full of questions, and the stubborn belief that I could build something real from six acres of fallow ground. What I did not plan for was Luke Carter.",
+    "reviews": [
+      {
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
+      }
+    ],
+    "purchaseOptions": []
+  },
+  {
     "id": "rodeo-rivals",
-    "title": "Rodeo Rivals",
-    "subtitle": "A Hope Ranch Romance (Hope Ranch Romance, Twin Arrows, Montana)",
-    "series": "Hope Ranch Romance",
+    "title": "Rodeo Rivals at Hope Ranch",
+    "subtitle": "A Hope Ranch Romance (Hope Ranch Book 3)",
+    "series": "Hope Ranch Series",
     "seriesOrder": 3,
-    "genre": "Western Romance",
-    "amazonLink": "https://a.co/d/07td5nbU",
+    "seriesOrderLabel": "Book 3",
+    "genre": "Clean and Wholesome Romance",
+    "author": "Mia Hope",
+    "amazonLink": "https://www.amazon.com/dp/B0H1ZRN7VP",
     "description": "I came to the Oklahoma County Fair with two goals: find a second horse, and prove myself on the western circuit.",
     "content": [
       "I came to the Oklahoma County Fair with two goals: find a second horse, and prove myself on the western circuit.",
@@ -500,18 +593,175 @@
     "purchaseOptions": [
       {
         "label": "Amazon",
-        "url": "https://a.co/d/07td5nbU"
+        "url": "https://www.amazon.com/dp/B0H1ZRN7VP"
+      }
+    ]
+  },
+  {
+    "id": "love-comes-home-to-hope-ranch",
+    "title": "Love Comes Home to Hope Ranch",
+    "subtitle": "A Hope Ranch Romance (Hope Ranch Book 4)",
+    "series": "Hope Ranch Series",
+    "seriesOrder": 4,
+    "seriesOrderLabel": "Book 4",
+    "genre": "Clean and Wholesome Romance",
+    "author": "Mia Hope",
+    "amazonLink": "https://www.amazon.com/dp/B0H6C8ZFXM",
+    "description": "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework.",
+    "content": [
+      "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework."
+    ],
+    "tags": [
+      "Hope Ranch",
+      "Montana",
+      "Homecoming",
+      "Clean Romance"
+    ],
+    "cover": "images/books/love-comes-home-to-hope-ranch.jpg",
+    "fallbackCover": "images/book-placeholder-2.svg",
+    "affiliateDisclosure": true,
+    "featured": false,
+    "releaseDate": "",
+    "longDescription": "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework.",
+    "reviews": [
+      {
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
+      }
+    ],
+    "purchaseOptions": [
+      {
+        "label": "Amazon",
+        "url": "https://www.amazon.com/dp/B0H6C8ZFXM"
+      }
+    ]
+  },
+  {
+    "id": "hooves-and-hearts-at-hope-ranch",
+    "title": "Hooves and Hearts at Hope Ranch",
+    "subtitle": "A Hope Ranch Romance (Hope Ranch Book 5)",
+    "series": "Hope Ranch Series",
+    "seriesOrder": 5,
+    "seriesOrderLabel": "Book 5",
+    "genre": "Clean and Wholesome Romance",
+    "author": "Mia Hope",
+    "amazonLink": "https://www.amazon.com/dp/B0HC4XRPXF",
+    "description": "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework.",
+    "content": [
+      "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework."
+    ],
+    "tags": [
+      "Hope Ranch",
+      "Horses",
+      "Montana",
+      "Clean Romance"
+    ],
+    "cover": "images/books/hooves-and-hearts-at-hope-ranch.jpg",
+    "fallbackCover": "images/book-placeholder-3.svg",
+    "affiliateDisclosure": true,
+    "featured": false,
+    "releaseDate": "",
+    "longDescription": "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework.",
+    "reviews": [
+      {
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
+      }
+    ],
+    "purchaseOptions": [
+      {
+        "label": "Amazon",
+        "url": "https://www.amazon.com/dp/B0HC4XRPXF"
+      }
+    ]
+  },
+  {
+    "id": "a-place-to-belong-jess-story",
+    "title": "A Place to Belong, Jess' Story",
+    "subtitle": "A Hope Ranch Romance (Hope Ranch Book 6)",
+    "series": "Hope Ranch Series",
+    "seriesOrder": 6,
+    "seriesOrderLabel": "Book 6",
+    "genre": "Clean and Wholesome Romance",
+    "author": "Mia Hope",
+    "amazonLink": "https://www.amazon.com/dp/B0HFT719MZ",
+    "description": "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework.",
+    "content": [
+      "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework."
+    ],
+    "tags": [
+      "Hope Ranch",
+      "Jess Story",
+      "Montana",
+      "Clean Romance"
+    ],
+    "cover": "images/books/a-place-to-belong-jess-story.jpg",
+    "fallbackCover": "images/book-placeholder-1.svg",
+    "affiliateDisclosure": true,
+    "featured": false,
+    "releaseDate": "",
+    "longDescription": "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework.",
+    "reviews": [
+      {
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
+      }
+    ],
+    "purchaseOptions": [
+      {
+        "label": "Amazon",
+        "url": "https://www.amazon.com/dp/B0HFT719MZ"
+      }
+    ]
+  },
+  {
+    "id": "the-first-trail",
+    "title": "The First Trail",
+    "subtitle": "A Mystic Falls Cozy Mystery Series Prequel",
+    "series": "The Mystic Falls Cozy Mystery Series",
+    "seriesOrder": 0,
+    "seriesOrderLabel": "Prequel",
+    "genre": "Cozy Mystery",
+    "author": "Lucy Wren",
+    "amazonLink": "https://www.amazon.com/dp/B0HKWZ941K",
+    "description": "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework.",
+    "content": [
+      "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework."
+    ],
+    "tags": [
+      "Prequel",
+      "Cozy Mystery",
+      "Mystic Falls"
+    ],
+    "cover": "images/books/the-first-trail.jpg",
+    "fallbackCover": "images/book-placeholder-2.svg",
+    "affiliateDisclosure": true,
+    "featured": false,
+    "releaseDate": "",
+    "longDescription": "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework.",
+    "reviews": [
+      {
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
+      }
+    ],
+    "purchaseOptions": [
+      {
+        "label": "Amazon",
+        "url": "https://www.amazon.com/dp/B0HKWZ941K"
       }
     ]
   },
   {
     "id": "the-handymans-list",
     "title": "The Handyman's List",
-    "subtitle": "A Mystic Falls Cozy Mystery (A Mystic Falls Mystery Book 1)",
-    "series": "Mystic Falls Mystery",
+    "subtitle": "A Mystic Falls Cozy Mystery (Book 1)",
+    "series": "The Mystic Falls Cozy Mystery Series",
     "seriesOrder": 1,
+    "seriesOrderLabel": "Book 1",
     "genre": "Cozy Mystery",
-    "amazonLink": "https://a.co/d/0hlKpWr5",
+    "author": "Lucy Wren",
+    "amazonLink": "https://www.amazon.com/ebook/dp/B0H28KLHH5",
     "description": "I came to the North Carolina mountains for a reset. Quiet town. Clean slate. Walk the dog. Read a book. Be no one for a few days.",
     "content": [
       "I came to the North Carolina mountains for a reset. Quiet town. Clean slate. Walk the dog. Read a book. Be no one for a few days.",
@@ -546,7 +796,197 @@
     "purchaseOptions": [
       {
         "label": "Amazon",
-        "url": "https://a.co/d/0hlKpWr5"
+        "url": "https://www.amazon.com/ebook/dp/B0H28KLHH5"
+      }
+    ]
+  },
+  {
+    "id": "the-innkeepers-ledger",
+    "title": "The Innkeeper's Ledger",
+    "subtitle": "A Mystic Falls Cozy Mystery (Book 2)",
+    "series": "The Mystic Falls Cozy Mystery Series",
+    "seriesOrder": 2,
+    "seriesOrderLabel": "Book 2",
+    "genre": "Cozy Mystery",
+    "author": "Lucy Wren",
+    "amazonLink": "https://www.amazon.com/ebook/dp/B0H6KRF93B",
+    "description": "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework.",
+    "content": [
+      "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework."
+    ],
+    "tags": [
+      "Cozy Mystery",
+      "Mystic Falls",
+      "Small Town"
+    ],
+    "cover": "images/books/the-innkeepers-ledger.jpg",
+    "fallbackCover": "images/book-placeholder-1.svg",
+    "affiliateDisclosure": true,
+    "featured": false,
+    "releaseDate": "",
+    "longDescription": "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework.",
+    "reviews": [
+      {
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
+      }
+    ],
+    "purchaseOptions": [
+      {
+        "label": "Amazon",
+        "url": "https://www.amazon.com/ebook/dp/B0H6KRF93B"
+      }
+    ]
+  },
+  {
+    "id": "the-caretakers-cabin",
+    "title": "The Caretaker's Cabin",
+    "subtitle": "A Mystic Falls Cozy Mystery (Book 3)",
+    "series": "The Mystic Falls Cozy Mystery Series",
+    "seriesOrder": 3,
+    "seriesOrderLabel": "Book 3",
+    "genre": "Cozy Mystery",
+    "author": "Lucy Wren",
+    "amazonLink": "https://www.amazon.com/dp/B0HCPZF2CM",
+    "description": "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework.",
+    "content": [
+      "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework."
+    ],
+    "tags": [
+      "Cozy Mystery",
+      "Mystic Falls",
+      "Cabin Mystery"
+    ],
+    "cover": "images/books/the-caretakers-cabin.jpg",
+    "fallbackCover": "images/book-placeholder-2.svg",
+    "affiliateDisclosure": true,
+    "featured": false,
+    "releaseDate": "",
+    "longDescription": "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework.",
+    "reviews": [
+      {
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
+      }
+    ],
+    "purchaseOptions": [
+      {
+        "label": "Amazon",
+        "url": "https://www.amazon.com/dp/B0HCPZF2CM"
+      }
+    ]
+  },
+  {
+    "id": "the-last-waystation",
+    "title": "The Last Waystation",
+    "subtitle": "A Mystic Falls Cozy Mystery (Book 4)",
+    "series": "The Mystic Falls Cozy Mystery Series",
+    "seriesOrder": 4,
+    "seriesOrderLabel": "Book 4",
+    "genre": "Cozy Mystery",
+    "author": "Lucy Wren",
+    "amazonLink": "https://www.amazon.com/dp/B0H4NHNTJ3",
+    "description": "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework.",
+    "content": [
+      "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework."
+    ],
+    "tags": [
+      "Cozy Mystery",
+      "Mystic Falls",
+      "Small Town Mystery"
+    ],
+    "cover": "images/books/the-last-waystation.jpg",
+    "fallbackCover": "images/book-placeholder-3.svg",
+    "affiliateDisclosure": true,
+    "featured": false,
+    "releaseDate": "",
+    "longDescription": "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework.",
+    "reviews": [
+      {
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
+      }
+    ],
+    "purchaseOptions": [
+      {
+        "label": "Amazon",
+        "url": "https://www.amazon.com/dp/B0H4NHNTJ3"
+      }
+    ]
+  },
+  {
+    "id": "the-craftsmans-mark",
+    "title": "The Craftsman's Mark",
+    "subtitle": "A Mystic Falls Cozy Mystery (Book 5)",
+    "series": "The Mystic Falls Cozy Mystery Series",
+    "seriesOrder": 5,
+    "seriesOrderLabel": "Book 5",
+    "genre": "Cozy Mystery",
+    "author": "Lucy Wren",
+    "amazonLink": "https://www.amazon.com/dp/B0HK5GF9H8",
+    "description": "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework.",
+    "content": [
+      "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework."
+    ],
+    "tags": [
+      "Cozy Mystery",
+      "Mystic Falls",
+      "Craftsman Mystery"
+    ],
+    "cover": "images/books/the-craftsmans-mark.jpg",
+    "fallbackCover": "images/book-placeholder-1.svg",
+    "affiliateDisclosure": true,
+    "featured": false,
+    "releaseDate": "",
+    "longDescription": "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework.",
+    "reviews": [
+      {
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
+      }
+    ],
+    "purchaseOptions": [
+      {
+        "label": "Amazon",
+        "url": "https://www.amazon.com/dp/B0HK5GF9H8"
+      }
+    ]
+  },
+  {
+    "id": "the-trail-she-left",
+    "title": "The Trail She Left",
+    "subtitle": "A Mystic Falls Cozy Mystery (Book 6)",
+    "series": "The Mystic Falls Cozy Mystery Series",
+    "seriesOrder": 6,
+    "seriesOrderLabel": "Book 6",
+    "genre": "Cozy Mystery",
+    "author": "Lucy Wren",
+    "amazonLink": "https://www.amazon.com/dp/B0HKHZ497Z",
+    "description": "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework.",
+    "content": [
+      "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework."
+    ],
+    "tags": [
+      "Cozy Mystery",
+      "Mystic Falls",
+      "Trail Mystery"
+    ],
+    "cover": "images/books/the-trail-she-left.jpg",
+    "fallbackCover": "images/book-placeholder-2.svg",
+    "affiliateDisclosure": true,
+    "featured": false,
+    "releaseDate": "",
+    "longDescription": "Book details are coming soon. This title is included here so the series order matches Lucy Nell Publishing's current catalog framework.",
+    "reviews": [
+      {
+        "quote": "Reader reviews and editorial notes can be added here once approved.",
+        "source": "Placeholder"
+      }
+    ],
+    "purchaseOptions": [
+      {
+        "label": "Amazon",
+        "url": "https://www.amazon.com/dp/B0HKHZ497Z"
       }
     ]
   }
