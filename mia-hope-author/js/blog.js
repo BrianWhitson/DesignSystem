@@ -43,7 +43,7 @@
       </article>
     `;
 
-    document.title = `${post.title} | Mia Hope Blog`;
+    document.title = `${post.title} | Lucy Nell Publishing Blog`;
     const meta = document.querySelector('meta[name="description"]');
     if (meta) meta.setAttribute("content", post.excerpt);
 
@@ -53,11 +53,11 @@
       "headline": post.title,
       "description": post.excerpt,
       "datePublished": post.date,
-      "author": {
-        "@type": "Person",
-        "name": "Mia Hope"
+      "publisher": {
+        "@type": "Organization",
+        "name": "Lucy Nell Publishing"
       },
-      "mainEntityOfPage": `https://www.miahopeauthor.com/blog.html?post=${post.slug}`
+      "mainEntityOfPage": `https://www.lucynellpublishing.com/blog.html?post=${post.slug}`
     });
 
     return true;
@@ -107,12 +107,12 @@
     window.Site.injectJsonLd("schema-blog", {
       "@context": "https://schema.org",
       "@type": "Blog",
-      "name": "Mia Hope Blog",
+      "name": "Lucy Nell Publishing Blog",
       "blogPost": posts.map((post) => ({
         "@type": "BlogPosting",
         "headline": post.title,
         "datePublished": post.date,
-        "url": `https://www.miahopeauthor.com/blog.html?post=${post.slug}`
+        "url": `https://www.lucynellpublishing.com/blog.html?post=${post.slug}`
       }))
     });
   }

@@ -2,36 +2,98 @@
   "use strict";
 
   function formatDate(value) {
+    if (!value) return "";
+
+    const date = new Date(`${value}T00:00:00`);
+    if (Number.isNaN(date.getTime())) return "";
+
     return new Intl.DateTimeFormat("en", {
       year: "numeric",
       month: "long",
       day: "numeric"
-    }).format(new Date(`${value}T00:00:00`));
+    }).format(date);
+  }
+
+  function getBookDetailLink(book) {
+    return `books/${encodeURIComponent(book.id)}.html`;
+  }
+
+  function getCoverSrc(book) {
+    return book.cover || book.fallbackCover || "images/book-placeholder-1.svg";
+  }
+
+  function getCoverFallback(book) {
+    return book.fallbackCover || "images/book-placeholder-1.svg";
+  }
+
+  function releaseDatePill(book) {
+    const releaseDate = formatDate(book.releaseDate);
+    return releaseDate ? `<li class="pill">${releaseDate}</li>` : "";
+  }
+
+  function orderPill(book) {
+    return book.seriesOrderLabel ? `<li class="pill">${window.Affiliate.escapeHtml(book.seriesOrderLabel)}</li>` : "";
+  }
+
+  function purchaseButton(book, buttonText) {
+    return book.amazonLink
+      ? window.Affiliate.createAffiliateButton(book.amazonLink, buttonText)
+      : '<p class="form-note stack-top">Amazon link pending for this title.</p>';
   }
 
   function bookCard(book, options = {}) {
     const buttonText = options.buttonText || "Buy on Amazon";
-    const detailLink = `books.html?book=${encodeURIComponent(book.id)}`;
+    const detailLink = getBookDetailLink(book);
+    const coverSrc = getCoverSrc(book);
+    const coverFallback = getCoverFallback(book);
 
     return `
       <article class="book-card fade-in" data-genre="${window.Affiliate.escapeHtml(book.genre)}" data-title="${window.Affiliate.escapeHtml(book.title)}">
-        <a href="${detailLink}" aria-label="View details for ${window.Affiliate.escapeHtml(book.title)}">
-          <img class="book-cover" src="${window.Affiliate.escapeHtml(book.cover)}" alt="Cover placeholder for ${window.Affiliate.escapeHtml(book.title)}" loading="lazy" width="480" height="720">
-        </a>
         <div class="book-body">
           <ul class="meta-list" aria-label="Book details">
             <li class="pill">${window.Affiliate.escapeHtml(book.genre)}</li>
-            <li class="pill">${formatDate(book.releaseDate)}</li>
+            ${orderPill(book)}
+            ${releaseDatePill(book)}
           </ul>
           <h3><a href="${detailLink}">${window.Affiliate.escapeHtml(book.title)}</a></h3>
+          <a class="book-card-cover-link" href="${detailLink}" aria-label="View details for ${window.Affiliate.escapeHtml(book.title)}">
+            <img class="book-cover" src="${window.Affiliate.escapeHtml(coverSrc)}" alt="Cover for ${window.Affiliate.escapeHtml(book.title)}" loading="lazy" width="480" height="720" onerror="this.onerror=null; this.src='${window.Affiliate.escapeHtml(coverFallback)}';">
+          </a>
           <p>${window.Affiliate.escapeHtml(book.description)}</p>
           <ul class="tag-list" aria-label="Book themes">
             ${book.tags.map((tag) => `<li>${window.Affiliate.escapeHtml(tag)}</li>`).join("")}
           </ul>
-          ${window.Affiliate.createAffiliateButton(book.amazonLink, buttonText)}
+          <a class="book-detail-link" href="${detailLink}">Read book details</a>
+          ${purchaseButton(book, buttonText)}
         </div>
       </article>
     `;
+  }
+
+  function groupBooksBySeries(books) {
+    return books.reduce((groups, book) => {
+      let group = groups.find((item) => item.series === book.series);
+      if (!group) {
+        group = { series: book.series, books: [] };
+        groups.push(group);
+      }
+      group.books.push(book);
+      return groups;
+    }, []);
+  }
+
+  function renderBookGroups(books) {
+    return groupBooksBySeries(books).map((group) => `
+      <section class="book-series-group fade-in">
+        <div class="book-series-heading">
+          <h3>${window.Affiliate.escapeHtml(group.series)}</h3>
+          <p>${group.books.length} ${group.books.length === 1 ? "title" : "titles"} in reading order.</p>
+        </div>
+        <div class="card-grid book-grid">
+          ${group.books.map((book) => bookCard(book)).join("")}
+        </div>
+      </section>
+    `).join("");
   }
 
   function populateGenreFilter(books) {
@@ -69,7 +131,7 @@
       });
 
       target.innerHTML = filtered.length
-        ? filtered.map((book) => bookCard(book)).join("")
+        ? renderBookGroups(filtered)
         : '<p class="empty-state">No books match that search yet. Try a different keyword or genre.</p>';
       window.Site.initRevealAnimations();
     }
@@ -91,15 +153,18 @@
     panel.classList.add("is-visible");
     const listing = document.querySelector("[data-book-listing]");
     if (listing) listing.hidden = true;
+    const releaseDate = formatDate(book.releaseDate);
+    const coverSrc = getCoverSrc(book);
+    const coverFallback = getCoverFallback(book);
     panel.innerHTML = `
       <p class="breadcrumb"><a href="books.html">Books</a> / ${window.Affiliate.escapeHtml(book.title)}</p>
       <div class="split-grid">
-        <img class="book-cover" src="${window.Affiliate.escapeHtml(book.cover)}" alt="Cover placeholder for ${window.Affiliate.escapeHtml(book.title)}" loading="eager" width="480" height="720">
+        <img class="book-cover" src="${window.Affiliate.escapeHtml(coverSrc)}" alt="Cover for ${window.Affiliate.escapeHtml(book.title)}" loading="eager" width="480" height="720" onerror="this.onerror=null; this.src='${window.Affiliate.escapeHtml(coverFallback)}';">
         <div>
           <p class="eyebrow">${window.Affiliate.escapeHtml(book.genre)}</p>
           <h2>${window.Affiliate.escapeHtml(book.title)}</h2>
           <p class="lead">${window.Affiliate.escapeHtml(book.subtitle)}</p>
-          <p><strong>Release date:</strong> ${formatDate(book.releaseDate)}</p>
+          ${releaseDate ? `<p><strong>Release date:</strong> ${releaseDate}</p>` : ""}
           <p>${window.Affiliate.escapeHtml(book.longDescription)}</p>
           <div class="reviews" aria-label="Reviews for ${window.Affiliate.escapeHtml(book.title)}">
             ${book.reviews.map((review) => `
@@ -129,9 +194,13 @@
         "datePublished": book.releaseDate,
         "author": {
           "@type": "Person",
-          "name": "Mia Hope"
+          "name": book.author
         },
-        "url": `https://www.miahopeauthor.com/books.html?book=${book.id}`
+        "publisher": {
+          "@type": "Organization",
+          "name": "Lucy Nell Publishing"
+        },
+        "url": `https://www.lucynellpublishing.com/books/${book.id}.html`
       }))
     });
   }
