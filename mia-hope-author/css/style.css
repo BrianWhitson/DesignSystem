@@ -495,7 +495,7 @@ button.button:hover {
 }
 
 .book-card .book-cover {
-  height: clamp(260px, 32vw, 380px);
+  height: auto;
   aspect-ratio: auto;
 }
 
